@@ -597,7 +597,7 @@ function drawTrendChart(data) {
     const barHeight = (item.count / maxValue) * chartHeight;
     const y = padding.top + chartHeight - barHeight;
 
-    context.fillStyle = "#0b6f74";
+    context.fillStyle = "#0046be";
     roundRect(context, x, y, barWidth, barHeight, 6);
     context.fill();
 
@@ -612,7 +612,7 @@ function drawTrendChart(data) {
 function drawQuartileChart(data) {
   const { context, width, height } = resizeCanvas(elements.quartileChart);
   const total = data.reduce((sum, item) => sum + item.count, 0);
-  const colors = ["#2e8b57", "#2877a8", "#c98b25", "#ba3d3d", "#7b8790"];
+  const colors = ["#0046be", "#65c8e8", "#fff500", "#af192b", "#98a4ad"];
   const centerX = width / 2;
   const centerY = height / 2 - 4;
   const radius = Math.min(width, height) * 0.28;

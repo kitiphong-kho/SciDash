@@ -1,17 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap");
+
 :root {
+  /* SCI MFU brand identity -- see sci-mfu-brand-guide */
   --bg: #f5f7fb;
   --surface: #ffffff;
-  --surface-soft: #f0f5f7;
-  --ink: #172026;
-  --muted: #64727f;
-  --line: #d9e1e7;
-  --primary: #0b6f74;
-  --primary-strong: #064d54;
-  --accent: #c7522a;
+  --surface-soft: #eef3fb;
+  --ink: #0d1b2b;
+  --muted: #5c6b7a;
+  --line: #dbe3ee;
+  --mfu-blue: #0046be;
+  --mfu-blue-strong: #00276c;
+  --mfu-blue-deep: #001843;
+  --mfu-yellow: #fff500;
+  --mfu-crimson: #af192b;
+  --primary: var(--mfu-blue);
+  --primary-strong: var(--mfu-blue-strong);
+  --accent: var(--mfu-crimson);
   --green: #2e8b57;
   --amber: #c98b25;
-  --red: #ba3d3d;
-  --shadow: 0 18px 45px rgba(28, 45, 55, 0.08);
+  --red: var(--mfu-crimson);
+  --shadow: 0 18px 45px rgba(0, 24, 67, 0.1);
 }
 
 * {
@@ -26,7 +34,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "MiSans Thai", "MiSans", Prompt, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 button,
@@ -49,8 +57,8 @@ select {
   flex-direction: column;
   gap: 28px;
   padding: 24px;
-  background: #10232c;
-  color: #eef7f7;
+  background: var(--mfu-blue-deep);
+  color: #eaf0ff;
 }
 
 .brand {
@@ -65,8 +73,8 @@ select {
   height: 42px;
   place-items: center;
   border-radius: 8px;
-  background: #d9f1ed;
-  color: #063b42;
+  background: var(--mfu-yellow);
+  color: var(--mfu-blue-deep);
   font-size: 22px;
   font-weight: 800;
 }
@@ -92,7 +100,7 @@ select {
 }
 
 .brand-subtitle {
-  color: #9eb9c2;
+  color: #9fb4e0;
   font-size: 13px;
 }
 
@@ -108,7 +116,7 @@ select {
   min-height: 42px;
   padding: 0 12px;
   border-radius: 8px;
-  color: #c5d8de;
+  color: #c3d2f2;
   text-decoration: none;
 }
 
@@ -118,22 +126,26 @@ select {
   place-items: center;
 }
 
-.nav-item:hover,
-.nav-item.active {
-  background: rgba(217, 241, 237, 0.12);
+.nav-item:hover {
+  background: rgba(255, 245, 0, 0.1);
   color: #ffffff;
+}
+
+.nav-item.active {
+  background: var(--mfu-yellow);
+  color: var(--mfu-blue-deep);
 }
 
 .sync-panel {
   margin-top: auto;
   padding: 16px;
-  border: 1px solid rgba(217, 241, 237, 0.18);
+  border: 1px solid rgba(255, 245, 0, 0.2);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.05);
 }
 
 .sync-label {
-  color: #9eb9c2;
+  color: #9fb4e0;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -145,7 +157,7 @@ select {
 
 .sync-copy {
   margin-top: 6px;
-  color: #c5d8de;
+  color: #c3d2f2;
   font-size: 13px;
   line-height: 1.5;
 }
@@ -314,10 +326,10 @@ h2 {
   gap: 12px;
   margin-bottom: 18px;
   padding: 10px 14px;
-  border: 1px solid #c7dad9;
+  border: 1px solid #c4d7f5;
   border-radius: 8px;
-  background: #eef8f6;
-  color: #144f52;
+  background: #eaf1fd;
+  color: var(--mfu-blue-strong);
   font-size: 14px;
 }
 
@@ -556,8 +568,8 @@ tbody tr:last-child td {
   min-height: 20px;
   padding: 2px 7px;
   border-radius: 999px;
-  background: #edf6f4;
-  color: #23615c;
+  background: #e8f1fb;
+  color: var(--mfu-blue-strong);
   font-size: 11px;
   font-weight: 800;
   white-space: nowrap;
@@ -604,23 +616,23 @@ tbody tr:last-child td {
 }
 
 .badge.q1 {
-  background: #e4f4ed;
-  color: #19623c;
+  background: #e3ebfb;
+  color: var(--mfu-blue-strong);
 }
 
 .badge.q2 {
-  background: #e8f1fb;
-  color: #1d5d8f;
+  background: #e6f7fc;
+  color: #0d7ea8;
 }
 
 .badge.q3 {
-  background: #fff4dd;
-  color: #8a5a10;
+  background: #fffbcc;
+  color: #6b6300;
 }
 
 .badge.q4 {
-  background: #fae8e8;
-  color: #9d3030;
+  background: #fbe4e7;
+  color: var(--mfu-crimson);
 }
 
 .badge.na {

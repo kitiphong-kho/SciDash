@@ -483,7 +483,17 @@ function getFilteredPublications() {
     const authorQuery = state.author.trim().toLowerCase();
     const matchesAuthor = !authorQuery || authorNames.some((author) => author.toLowerCase().includes(authorQuery));
     const matchesStaffGroup = state.staffGroup === "all" || getStaffGroups(item).includes(state.staffGroup);
-    const matchesAuthorRole = state.authorRole === "all" || getAuthorRoles(item).includes(state.authorRole);
+    const matchesAuthorRole = state.authorRole === "all" || (() => {
+      // The role must belong to the same staff member the author filter
+      // selected -- otherwise a paper where a *different* co-matched staff
+      // member is, say, the corresponding author would wrongly match too.
+      const roles = item.matchedStaffRoles || {};
+      const matchedNames = getMatchedStaffNames(item);
+      const relevantNames = authorQuery
+        ? matchedNames.filter((name) => name.toLowerCase().includes(authorQuery))
+        : matchedNames;
+      return relevantNames.some((name) => (roles[name] || "co_author") === state.authorRole);
+    })();
     const matchesQuartile = state.quartile === "all" || item.quartile === state.quartile;
     const sdgText = getSdgs(item).map(getSdgLabel).join(" ");
     const groupText = getStaffGroups(item).join(" ");

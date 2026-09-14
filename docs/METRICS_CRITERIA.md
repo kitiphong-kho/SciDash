@@ -64,12 +64,24 @@
   3. ถ้าตรง → เซ็ต role เป็น `corresponding_author` (ทับค่า first_author/co_author เดิม) ถ้าไม่ตรงหรือ Scopus ไม่มีข้อมูล correspondence เก็บไว้ → คงค่า first_author/co_author เดิมไว้
   - **ต้นทุน:** เพิ่ม API call อีก 1 ครั้ง/ผลงาน ทำให้ sync ใช้เวลานานขึ้นมาก จึงรันเฉพาะผลงานที่ถูก (re)fetch ในรอบ sync นั้นๆ เท่านั้น (full sync = ทุกผลงาน, incremental sync = เฉพาะช่วง 2 ปีล่าสุด) ไม่ทำย้อนหลังทั้งหมดทุกรอบ
   - **ข้อจำกัด:** ถ้า Scopus ไม่มีข้อมูล correspondence สำหรับผลงานนั้น (พบได้บ่อยในวารสารเก่าหรือวารสารท้องถิ่น) ระบบจะไม่ระบุ corresponding author ให้เลย ไม่ได้แปลว่าไม่มีคนเป็น corresponding author จริง
+- **การกรองในหน้าเว็บ (ตัวกรอง "ผู้แต่ง" + "บทบาทผู้แต่ง")**: `app.js: getFilteredPublications` — เมื่อเลือกทั้งชื่ออาจารย์และ role พร้อมกัน ระบบจะเช็คว่า role นั้นเป็นของ**อาจารย์คนที่เลือกจริง** ไม่ใช่ของ staff คนอื่นที่ match อยู่ในผลงานเดียวกัน (ถ้าไม่ได้เลือกชื่ออาจารย์ จะเช็คว่ามี staff คนไหนก็ได้ในผลงานนั้นมี role ตรงที่เลือก)
 
 ---
 
 ## Changelog
 
 การแก้ไขเกณฑ์ข้างต้นทุกครั้งต้องบันทึกที่นี่ (วันที่ / เกณฑ์ที่แก้ / เหตุผล)
+
+### 2026-09-14 (4)
+- **แก้บั๊ก: ตัวกรอง "ผู้แต่ง" + "บทบาทผู้แต่ง" จับคู่ผิดคน** (`app.js: getFilteredPublications`) — ผู้ใช้แจ้งว่าเลือกกรอง Asst. Prof. Dr. Kitiphong Khongphinitbunjong + Corresponding author แล้วขึ้นผลงานที่จริงๆ อาจารย์ท่านอื่น (ที่ match อยู่ในผลงานเดียวกัน) เป็น corresponding author ไม่ใช่ Kitiphong
+  - สาเหตุ: `matchesAuthor` และ `matchesAuthorRole` เดิมเช็คแยกกันคนละส่วน — แค่เช็คว่า "มี staff คนไหนก็ได้ตรงกับชื่อที่ค้น" AND "มี staff คนไหนก็ได้ (อาจคนละคน) มี role ตรงที่เลือก" ไม่ได้บังคับว่าต้องเป็นคนเดียวกัน
+  - แก้โดยให้ role filter เช็คเฉพาะ staff ที่ตรงกับชื่อในตัวกรอง "ผู้แต่ง" เท่านั้น
+  - ทดสอบกับข้อมูลจริง: filter "Kitiphong" + "corresponding_author" จาก 11 ผลงาน (ผิด) เหลือ 2 ผลงาน (ถูกต้อง)
+
+### 2026-09-14 (3)
+- **เพิ่มเกณฑ์ Corresponding author** (`scripts/scidash_core.py: request_abstract_retrieval`, `extract_corresponding_author_names`, `enrich_publications_with_corresponding_authors`) — เดิมไม่มีข้อมูลรองรับเลย (ดูหัวข้อที่ 4 เดิม) แก้โดยดึงจาก Scopus Abstract Retrieval API เพิ่ม (คนละ endpoint จาก Search API) ยิง 1 ครั้ง/ผลงาน เฉพาะผลงานที่ (re)fetch ในรอบ sync นั้น เพื่อคุมต้นทุน API
+  - เพิ่ม dropdown option "Co-author" ใน `index.html` ด้วย (ค่านี้มีอยู่แล้วใน data แต่ dropdown ไม่เคยมีตัวเลือกให้กรอง)
+  - full re-sync แรกหลังแก้: 374 จาก 705 matched-staff role ถูกระบุเป็น corresponding_author
 
 ### 2026-09-14 (2)
 - **แก้บั๊กสำคัญ: การจับคู่ผลงานข้ามคนสำหรับอาจารย์นามสกุลซ้ำ** (`scripts/scidash_core.py: fetch_staff_publications`, `request_scopus`) — ผู้ใช้แจ้งว่า Asst. Prof. Dr. Anant Eungwanichayapant มีผลงานที่ไม่ใช่ของตัวเองปรากฏอยู่ ตรวจสอบพบว่า query `AUTHLASTNAME(...)` ที่ยิงต่อ Scopus กรองแค่นามสกุล ไม่กรองชื่อจริง ทำให้ผลงานของ Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant (นามสกุลเดียวกัน) ถูกนับซ้ำเป็นของ Anant ด้วยทั้งหมด (ยืนยันด้วยการยิง query ตรงและดู view=COMPLETE เห็นชัดว่า author จริงคือ Prapassorn ไม่ใช่ Anant)

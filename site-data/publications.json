@@ -233,7 +233,7 @@
       "role": "Academic Staff"
     },
     {
-      "name": "Ajarn Dr. Amorn Owatworakit",
+      "name": "Asst. Prof. Dr. Amorn Owatworakit",
       "first": "Amorn",
       "last": "Owatworakit",
       "department": "Bioscience",
@@ -265,7 +265,7 @@
       "role": "Academic Staff"
     },
     {
-      "name": "Ajarn Dr. Kritsakorn Saninjuk",
+      "name": "Asst. Prof. Dr. Kritsakorn Saninjuk",
       "first": "Kritsakorn",
       "last": "Saninjuk",
       "department": "Bioscience",
@@ -281,7 +281,7 @@
       "role": "Academic Staff"
     },
     {
-      "name": "Ajarn Dr. Natthawut Yodsuwan",
+      "name": "Asst. Prof. Dr. Natthawut Yodsuwan",
       "first": "Natthawut",
       "last": "Yodsuwan",
       "department": "Bioscience",
@@ -1193,7 +1193,7 @@
         "Kanpiengjai A."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk"
       ],
       "affiliation": "Chiang Mai University; Faculty of Medicine, Chiang Mai University; Mae Fah Luang University; Maejo University",
       "status": "verified",
@@ -1205,10 +1205,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -1645,7 +1645,7 @@
         "Chotinantakul K."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk"
       ],
       "affiliation": "Graduate School of Medical Sciences; Mae Fah Luang University; School of Medicine, Mae Fah Luang University",
       "status": "verified",
@@ -1666,10 +1666,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "first_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "first_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -2582,7 +2582,7 @@
         "Chirakul S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk"
       ],
       "affiliation": "Chulalongkorn University; Faculty of Medicine, Khon Kaen University; Faculty of Medicine, Chulalongkorn University; Mae Fah Luang University",
       "status": "verified",
@@ -2594,10 +2594,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -3050,7 +3050,7 @@
         "Owatworakit A."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Natsaran Saichana",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
@@ -3066,12 +3066,12 @@
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -4745,7 +4745,7 @@
         "Mah S.H."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
       "affiliation": "University of Toyama; Taylor's University Malaysia; Mae Fah Luang University",
@@ -4767,11 +4767,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -4891,7 +4891,7 @@
         "Gonçalves D."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk",
+        "Asst. Prof. Dr. Kritsakorn Saninjuk",
         "Assoc. Prof. Dr. Siam Popluechai"
       ],
       "affiliation": "Mae Fah Luang University; ISPA - Instituto Universitário; University of Saint Joseph",
@@ -4914,11 +4914,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Siam Popluechai": "co_author",
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Siam Popluechai": "Biology",
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -8810,7 +8810,7 @@
         "Chamyuang S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Ajarn Dr. Kittirat Saharat",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
@@ -8841,12 +8841,12 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author",
         "Ajarn Dr. Kittirat Saharat": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology",
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology",
         "Ajarn Dr. Kittirat Saharat": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
@@ -8877,7 +8877,7 @@
         "Zhao Y."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk",
+        "Asst. Prof. Dr. Kritsakorn Saninjuk",
         "Asst. Prof. Dr. Pattana Kakumyan"
       ],
       "affiliation": "Mae Fah Luang University; Shanghai Academy of Agricultural Sciences",
@@ -8908,11 +8908,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "first_author",
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -9934,7 +9934,7 @@
         "Mongkolsuk S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk"
       ],
       "affiliation": "Mae Fah Luang University; Chulabhorn Graduate Institute; Laboratory of Biotechnology; MHESI",
       "status": "verified",
@@ -9946,10 +9946,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "first_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "first_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -10834,7 +10834,7 @@
         "Chirakul S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk"
       ],
       "affiliation": "Siriraj Hospital; Faculty of Medicine, Chulalongkorn University; Mae Fah Luang University",
       "status": "verified",
@@ -10855,10 +10855,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -13140,7 +13140,7 @@
         "Mah S.H."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit"
+        "Asst. Prof. Dr. Amorn Owatworakit"
       ],
       "affiliation": "Taylor's University Malaysia; Mae Fah Luang University; Malaysian Palm Oil Board",
       "status": "verified",
@@ -13152,10 +13152,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -13748,7 +13748,7 @@
         "Chamyuang S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
       "affiliation": "South China Agricultural University; Mae Fah Luang University",
@@ -13770,11 +13770,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID"
     },
@@ -14495,7 +14495,7 @@
         "Chamyuang S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Natthawut Yodsuwan",
+        "Asst. Prof. Dr. Natthawut Yodsuwan",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
       "affiliation": "South China Agricultural University; Mae Fah Luang University; Research Center for Micro-Ecological Agent Engineering and Technology of Guangdong Province",
@@ -14509,11 +14509,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Natthawut Yodsuwan": "co_author"
+        "Asst. Prof. Dr. Natthawut Yodsuwan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Natthawut Yodsuwan": "Biology"
+        "Asst. Prof. Dr. Natthawut Yodsuwan": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -14819,7 +14819,7 @@
         "Popluechai S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk",
+        "Asst. Prof. Dr. Kritsakorn Saninjuk",
         "Assoc. Prof. Dr. Siam Popluechai"
       ],
       "affiliation": "Kyushu University; Chiang Mai University; Mae Fah Luang University",
@@ -14833,11 +14833,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Siam Popluechai": "co_author",
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Siam Popluechai": "Biology",
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -20155,7 +20155,7 @@
         "Chamyuang S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
       "affiliation": "Taylor's University Malaysia; Mae Fah Luang University",
@@ -20177,11 +20177,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -20207,7 +20207,7 @@
         "Khongphinitbunjong K."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong"
       ],
       "affiliation": "Taylor's University Malaysia; Mae Fah Luang University",
@@ -20229,11 +20229,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -20361,7 +20361,7 @@
         "Owatworakit A."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
       "affiliation": "Mae Fah Luang University; Burapha University",
@@ -20375,11 +20375,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -20675,7 +20675,7 @@
         "Mah S.H."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit"
+        "Asst. Prof. Dr. Amorn Owatworakit"
       ],
       "affiliation": "Universidade de Vigo; Taylor's University Malaysia; Mae Fah Luang University; Malaysian Palm Oil Board",
       "status": "verified",
@@ -20695,10 +20695,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -20727,7 +20727,7 @@
         "Mah S.H."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit"
+        "Asst. Prof. Dr. Amorn Owatworakit"
       ],
       "affiliation": "Universidade de Vigo; Taylor's University Malaysia; Mae Fah Luang University; Malaysian Palm Oil Board",
       "status": "verified",
@@ -20747,10 +20747,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -23332,7 +23332,7 @@
         "Wongsurawat T."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Kritsakorn Saninjuk"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk"
       ],
       "affiliation": "Chulalongkorn University; Siriraj Hospital; Faculty of Medicine, Khon Kaen University; Faculty of Medicine, Chulalongkorn University; Mae Fah Luang University",
       "status": "verified",
@@ -23344,10 +23344,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Kritsakorn Saninjuk": "Biology"
+        "Asst. Prof. Dr. Kritsakorn Saninjuk": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -26507,7 +26507,7 @@
         "Tang Y.Q."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong"
       ],
       "affiliation": "Taylor's University Malaysia; Mae Fah Luang University",
@@ -26521,11 +26521,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -36654,7 +36654,7 @@
         "Siriwong N."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit"
+        "Asst. Prof. Dr. Amorn Owatworakit"
       ],
       "affiliation": "Kasetsart University; Mae Fah Luang University",
       "status": "verified",
@@ -36681,10 +36681,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -46169,7 +46169,7 @@
         "Chamyuang S."
       ],
       "matchedStaff": [
-        "Ajarn Dr. Amorn Owatworakit",
+        "Asst. Prof. Dr. Amorn Owatworakit",
         "Asst. Prof. Dr. Sunita Chamyuang"
       ],
       "affiliation": "Mae Fah Luang University",
@@ -46192,11 +46192,11 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Amorn Owatworakit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
-        "Ajarn Dr. Amorn Owatworakit": "Biology"
+        "Asst. Prof. Dr. Amorn Owatworakit": "Biology"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"

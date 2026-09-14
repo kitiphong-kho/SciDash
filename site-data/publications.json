@@ -606,8 +606,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
-        "Asst. Prof. Dr. Sitthi Duangphet": "co_author",
         "Asst. Prof. Dr. Nattaya Tawichai": "co_author",
+        "Asst. Prof. Dr. Sitthi Duangphet": "co_author",
         "Asst. Prof. Dr. Uraiwan Intatha": "co_author"
       },
       "matchedStaffGroups": {
@@ -844,8 +844,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "first_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "first_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "first_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -909,8 +909,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Sitthi Duangphet": "co_author"
       },
       "matchedStaffGroups": {
@@ -1674,8 +1674,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -1895,9 +1895,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -2661,9 +2661,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -2705,8 +2705,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
@@ -2749,9 +2749,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -2964,9 +2964,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -3007,8 +3007,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Ajarn Dr. Kittirat Saharat": "co_author"
+        "Ajarn Dr. Kittirat Saharat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -3106,9 +3106,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -3157,8 +3157,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -3236,8 +3236,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -3318,8 +3318,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -3513,8 +3513,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -3610,8 +3610,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Orawan Suwantong": "co_author",
-        "Asst. Prof. Dr. Patchara Punyamoonwongsa": "co_author",
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
+        "Asst. Prof. Dr. Patchara Punyamoonwongsa": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Orawan Suwantong": "Chemistry",
@@ -3721,9 +3721,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -3897,7 +3897,7 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Darunee Wattanasiriwech": "first_author",
+        "Assoc. Prof. Dr. Darunee Wattanasiriwech": "co_author",
         "Assoc. Prof. Dr. Suthee Wattanasiriwech": "first_author"
       },
       "matchedStaffGroups": {
@@ -4279,8 +4279,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -4414,8 +4414,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Siam Popluechai": "co_author",
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Ajarn Dr. Kritsakorn Saninjuk": "co_author",
+        "Assoc. Prof. Dr. Siam Popluechai": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Siam Popluechai": "Biology",
@@ -4466,11 +4466,11 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
+        "Ajarn Dr. Kittirat Saharat": "co_author",
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Kittirat Saharat": "co_author"
+        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -4513,8 +4513,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "first_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "first_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -4649,8 +4649,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -4701,8 +4701,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
@@ -4745,9 +4745,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -4798,8 +4798,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -4895,8 +4895,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -5071,9 +5071,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -5176,8 +5176,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -5272,8 +5272,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -5322,9 +5322,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -5374,9 +5374,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -5426,8 +5426,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -5507,8 +5507,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -5557,9 +5557,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -6030,8 +6030,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "first_author",
-        "Ajarn Dr. Kittirat Saharat": "co_author"
+        "Ajarn Dr. Kittirat Saharat": "co_author",
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "first_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -6357,8 +6357,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -6593,8 +6593,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Sitthi Duangphet": "co_author"
       },
       "matchedStaffGroups": {
@@ -6810,9 +6810,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
+        "Assoc. Prof. Dr. Siam Popluechai": "co_author",
         "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
-        "Assoc. Prof. Dr. Siam Popluechai": "co_author"
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -6862,9 +6862,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -7337,11 +7337,11 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
+        "Ajarn Dr. Kittirat Saharat": "co_author",
         "Assoc. Prof. Dr. Orawan Suwantong": "co_author",
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Ajarn Dr. Kittirat Saharat": "co_author"
+        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Orawan Suwantong": "Chemistry",
@@ -7758,8 +7758,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Sitthi Duangphet": "first_author",
         "Asst. Prof. Dr. Uraiwan Intatha": "co_author"
       },
@@ -7820,9 +7820,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
         "Ajarn Dr. Amorn Owatworakit": "co_author",
-        "Ajarn Dr. Kittirat Saharat": "co_author"
+        "Ajarn Dr. Kittirat Saharat": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -7880,8 +7880,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "first_author",
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Ajarn Dr. Kritsakorn Saninjuk": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "first_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -7929,8 +7929,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Suwanna Deachathai": "co_author"
+        "Asst. Prof. Dr. Suwanna Deachathai": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -8056,8 +8056,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -8105,8 +8105,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -8532,10 +8532,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -8626,8 +8626,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Ajarn Dr. Kittirat Saharat": "co_author"
+        "Ajarn Dr. Kittirat Saharat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -8920,10 +8920,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
+        "Asst. Prof. Dr. Panom Winyayong": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
         "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
-        "Asst. Prof. Dr. Panom Winyayong": "co_author"
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -9089,8 +9089,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -9220,9 +9220,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -9446,9 +9446,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -9832,8 +9832,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -9885,8 +9885,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
@@ -10159,8 +10159,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -10260,8 +10260,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -10517,10 +10517,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -10651,8 +10651,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "Biology",
@@ -10972,8 +10972,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -11221,10 +11221,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
+        "Asst. Prof. Dr. Panom Winyayong": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
         "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
-        "Asst. Prof. Dr. Panom Winyayong": "co_author"
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -11365,8 +11365,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "Biology",
@@ -11454,10 +11454,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -11587,9 +11587,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -11638,8 +11638,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Biology",
@@ -11772,8 +11772,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Sitthi Duangphet": "co_author"
       },
       "matchedStaffGroups": {
@@ -11961,8 +11961,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -12040,8 +12040,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Nuttachat Wisittipanit": "co_author",
-        "Assoc. Prof. Dr. Piyanuch Siriwat": "co_author"
+        "Assoc. Prof. Dr. Piyanuch Siriwat": "co_author",
+        "Asst. Prof. Dr. Nuttachat Wisittipanit": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Nuttachat Wisittipanit": "Material Science Engineering",
@@ -12129,8 +12129,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Sitthi Duangphet": "co_author"
       },
       "matchedStaffGroups": {
@@ -12260,9 +12260,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -12380,8 +12380,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -12644,8 +12644,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Natthawut Yodsuwan": "co_author"
+        "Ajarn Dr. Natthawut Yodsuwan": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -12694,9 +12694,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -12802,9 +12802,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -12940,8 +12940,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Siam Popluechai": "co_author",
-        "Ajarn Dr. Kritsakorn Saninjuk": "co_author"
+        "Ajarn Dr. Kritsakorn Saninjuk": "co_author",
+        "Assoc. Prof. Dr. Siam Popluechai": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Siam Popluechai": "Biology",
@@ -13037,10 +13037,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -13083,9 +13083,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
         "Asst. Prof. Dr. Suwanna Deachathai": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -13235,9 +13235,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -13286,8 +13286,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -13335,8 +13335,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -13688,8 +13688,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "Biology",
@@ -13896,10 +13896,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -14546,8 +14546,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -14803,9 +14803,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -14855,8 +14855,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
@@ -14991,8 +14991,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -15574,10 +15574,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "first_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "first_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -15628,8 +15628,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Biology",
@@ -15731,8 +15731,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -16278,8 +16278,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "first_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "first_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -16329,8 +16329,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
@@ -16552,8 +16552,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -16854,8 +16854,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -17162,8 +17162,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -17211,8 +17211,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -17301,9 +17301,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
+        "Asst. Prof. Dr. Panom Winyayong": "first_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
-        "Asst. Prof. Dr. Panom Winyayong": "first_author"
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -17344,8 +17344,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -17904,8 +17904,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -17954,9 +17954,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
+        "Asst. Prof. Dr. Panom Winyayong": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
-        "Asst. Prof. Dr. Panom Winyayong": "co_author"
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -18333,8 +18333,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -18431,8 +18431,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -18566,8 +18566,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Biology",
@@ -19279,9 +19279,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -19621,10 +19621,10 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
         "Asst. Prof. Dr. Suwanna Deachathai": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -19750,8 +19750,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
-        "Asst. Prof. Dr. Panom Winyayong": "co_author"
+        "Asst. Prof. Dr. Panom Winyayong": "co_author",
+        "Asst. Prof. Dr. Phunrawie Promnart": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Phunrawie Promnart": "Chemistry",
@@ -19924,9 +19924,9 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
         "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "first_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -19976,8 +19976,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Patchara Punyamoonwongsa": "co_author",
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
+        "Asst. Prof. Dr. Patchara Punyamoonwongsa": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Patchara Punyamoonwongsa": "Chemistry",
@@ -20444,10 +20444,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
         "Asst. Prof. Dr. Suwanna Deachathai": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -20490,9 +20490,9 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
         "Asst. Prof. Dr. Phunrawie Promnart": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -20904,8 +20904,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -20953,8 +20953,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -21239,8 +21239,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -21426,8 +21426,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "first_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "first_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -21836,8 +21836,8 @@
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Siam Popluechai": "co_author",
         "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Siam Popluechai": "Biology",
@@ -21937,8 +21937,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
-        "Asst. Prof. Dr. Sitthi Duangphet": "co_author",
         "Asst. Prof. Dr. Nattaya Tawichai": "co_author",
+        "Asst. Prof. Dr. Sitthi Duangphet": "co_author",
         "Asst. Prof. Dr. Somwan Chumphongphan": "co_author",
         "Asst. Prof. Dr. Uraiwan Intatha": "co_author"
       },
@@ -22544,8 +22544,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Kitiphong Khongphinitbunjong": "Biology",
@@ -23165,8 +23165,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -23215,9 +23215,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -23738,8 +23738,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -24033,10 +24033,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -24415,10 +24415,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -24742,10 +24742,10 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -25037,8 +25037,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -25405,9 +25405,9 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
         "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -25704,8 +25704,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -25803,8 +25803,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -27038,8 +27038,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "co_author",
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Khanobporn Tangtrakulwanich": "Biology",
@@ -27840,8 +27840,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -29096,8 +29096,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -30039,11 +30039,11 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
+        "Assoc. Prof. Dr. Piyanuch Siriwat": "co_author",
         "Asst. Prof. Dr. Chuleeporn Thanomsilp": "co_author",
-        "Asst. Prof. Dr. Patcharanan Choto": "co_author",
-        "Asst. Prof. Dr. Thitipone Suwunwong": "co_author",
         "Asst. Prof. Dr. Nuttachat Wisittipanit": "co_author",
-        "Assoc. Prof. Dr. Piyanuch Siriwat": "co_author"
+        "Asst. Prof. Dr. Patcharanan Choto": "co_author",
+        "Asst. Prof. Dr. Thitipone Suwunwong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Chuleeporn Thanomsilp": "Chemistry",
@@ -30300,8 +30300,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -30567,8 +30567,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -30870,7 +30870,7 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Darunee Wattanasiriwech": "first_author",
+        "Assoc. Prof. Dr. Darunee Wattanasiriwech": "co_author",
         "Assoc. Prof. Dr. Suthee Wattanasiriwech": "first_author"
       },
       "matchedStaffGroups": {
@@ -30962,8 +30962,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -31057,8 +31057,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Biology",
@@ -31136,8 +31136,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -31337,7 +31337,7 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Darunee Wattanasiriwech": "first_author",
+        "Assoc. Prof. Dr. Darunee Wattanasiriwech": "co_author",
         "Assoc. Prof. Dr. Suthee Wattanasiriwech": "first_author"
       },
       "matchedStaffGroups": {
@@ -31652,8 +31652,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -31733,8 +31733,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Somrudee Nilthong": "Biology",
@@ -32882,8 +32882,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Biology",
@@ -33440,8 +33440,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Biology",
@@ -33618,9 +33618,9 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -33876,8 +33876,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -34738,9 +34738,9 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
         "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -34849,9 +34849,9 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "first_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
         "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -34971,8 +34971,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author",
-        "Ajarn Dr. Jantrararuk Tovaranonte": "co_author"
+        "Ajarn Dr. Jantrararuk Tovaranonte": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -35061,8 +35061,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -35327,8 +35327,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -35895,9 +35895,9 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "first_author",
         "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "first_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -36750,8 +36750,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Biology",
@@ -36842,8 +36842,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -37182,8 +37182,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -37234,8 +37234,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Patcharanan Choto": "co_author",
-        "Asst. Prof. Dr. Thitipone Suwunwong": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Asst. Prof. Dr. Thitipone Suwunwong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Patcharanan Choto": "Chemistry",
@@ -37447,8 +37447,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -37599,8 +37599,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -37650,8 +37650,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "co_author",
-        "Asst. Prof. Dr. Somrudee Nilthong": "co_author",
-        "Asst. Prof. Dr. Rungrote Nilthong": "co_author"
+        "Asst. Prof. Dr. Rungrote Nilthong": "co_author",
+        "Asst. Prof. Dr. Somrudee Nilthong": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ekachai Chukeatirote": "Biology",
@@ -37741,8 +37741,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -38094,8 +38094,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -38529,8 +38529,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author",
-        "Ajarn Dr. Jantrararuk Tovaranonte": "co_author"
+        "Ajarn Dr. Jantrararuk Tovaranonte": "co_author",
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Patcharee Pripdeevech": "Chemistry",
@@ -39029,8 +39029,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "first_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "first_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",
@@ -39303,8 +39303,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
-        "Ajarn Dr. Amorn Owatworakit": "co_author"
+        "Ajarn Dr. Amorn Owatworakit": "co_author",
+        "Asst. Prof. Dr. Sunita Chamyuang": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Sunita Chamyuang": "Biology",
@@ -39727,8 +39727,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Naritsada Thongklang": "co_author"
+        "Ajarn Dr. Naritsada Thongklang": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Biology",
@@ -40447,8 +40447,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "first_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "first_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "first_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -40591,8 +40591,8 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author",
-        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author"
+        "Asst. Prof. Dr. Anant Eungwanichayapant": "co_author",
+        "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant": "Biology",
@@ -41023,8 +41023,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -41420,8 +41420,8 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Prof. Dr. Surat Laphookhieo": "co_author",
-        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author"
+        "Asst. Prof. Dr. Tharakorn Maneerat": "co_author",
+        "Prof. Dr. Surat Laphookhieo": "co_author"
       },
       "matchedStaffGroups": {
         "Prof. Dr. Surat Laphookhieo": "Chemistry",
@@ -42218,8 +42218,8 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Adjunct Prof. Dr. Kevin Hyde": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
       },
       "matchedStaffGroups": {
         "Adjunct Prof. Dr. Kevin Hyde": "Biology",

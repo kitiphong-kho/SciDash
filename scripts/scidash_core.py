@@ -320,7 +320,7 @@ def classify_sdgs(publication):
 
 def classify_author_role(publication, staff):
     first_author = publication.get("authors", [""])[0]
-    if normalized_name_token(staff["last"]) and normalized_name_token(staff["last"]) in normalized_name_token(first_author):
+    if author_matches_staff(first_author, staff):
         return "first_author"
     return "co_author"
 

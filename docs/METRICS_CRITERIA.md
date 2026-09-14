@@ -58,7 +58,12 @@
 
 - **First author**: เช็คว่าผู้แต่งคนแรกในลิสต์ (`authors[0]`) ตรงกับอาจารย์ที่ match หรือไม่ โดยต้องตรงทั้ง **นามสกุล + ชื่อ (หรืออย่างน้อย initial ของชื่อ)** ผ่านฟังก์ชัน `author_matches_staff` เดียวกับที่ใช้จับคู่ staff ทั่วทั้งระบบ → ตรง = `first_author`, ไม่ตรง = `co_author`
   - ⚠️ ข้อจำกัดที่เหลืออยู่: ถ้าอาจารย์ 2 ท่านนามสกุลเดียวกัน **และ** initial ชื่อขึ้นต้นตัวเดียวกัน (เช่น "Somchai Suwan" กับ "Somsri Suwan") ระบบยังแยกไม่ออก เพราะ heuristic ใช้แค่ first-initial ไม่ใช่ชื่อเต็ม (จุดร่วมกับการจับคู่ staff ทั่วทั้งระบบ ไม่ใช่แค่ role)
-- **Corresponding author**: ⚠️ **ยังไม่มีการคำนวณจริง** — มีตัวเลือกใน filter dropdown แต่ backend ไม่เคยสร้างค่านี้ เพราะ Scopus Search API (STANDARD view) ที่ใช้อยู่ไม่คืนข้อมูล corresponding author มาให้ ต้องเปลี่ยนไปใช้ Scopus Abstract Retrieval API ถึงจะได้ข้อมูลนี้จริง — เลือก filter นี้ตอนนี้จะไม่มีรายการขึ้นเสมอ
+- **Corresponding author**: ดึงจาก **Scopus Abstract Retrieval API** (คนละ endpoint จาก Search API ที่ใช้ค้นหาผลงาน) — `scidash_core.py: request_abstract_retrieval`, `extract_corresponding_author_names`, `enrich_publications_with_corresponding_authors`
+  1. ยิง Abstract Retrieval **1 ครั้งต่อผลงาน 1 ชิ้น** (เฉพาะผลงานที่มี matchedStaff เท่านั้น) เพื่อดึง block `correspondence` ซึ่ง Scopus ระบุชัดเจนว่าใครเป็น corresponding author (มีได้มากกว่า 1 คน)
+  2. เทียบชื่อใน `correspondence` กับอาจารย์แต่ละคนที่ match ผ่าน `author_matches_staff` เดียวกับจุดอื่นๆ
+  3. ถ้าตรง → เซ็ต role เป็น `corresponding_author` (ทับค่า first_author/co_author เดิม) ถ้าไม่ตรงหรือ Scopus ไม่มีข้อมูล correspondence เก็บไว้ → คงค่า first_author/co_author เดิมไว้
+  - **ต้นทุน:** เพิ่ม API call อีก 1 ครั้ง/ผลงาน ทำให้ sync ใช้เวลานานขึ้นมาก จึงรันเฉพาะผลงานที่ถูก (re)fetch ในรอบ sync นั้นๆ เท่านั้น (full sync = ทุกผลงาน, incremental sync = เฉพาะช่วง 2 ปีล่าสุด) ไม่ทำย้อนหลังทั้งหมดทุกรอบ
+  - **ข้อจำกัด:** ถ้า Scopus ไม่มีข้อมูล correspondence สำหรับผลงานนั้น (พบได้บ่อยในวารสารเก่าหรือวารสารท้องถิ่น) ระบบจะไม่ระบุ corresponding author ให้เลย ไม่ได้แปลว่าไม่มีคนเป็น corresponding author จริง
 
 ---
 

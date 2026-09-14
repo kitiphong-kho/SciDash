@@ -106,6 +106,7 @@ def run_sync(full: bool):
             fetched.setdefault(pub_id, publication)
 
         core.enrich_publications_with_metrics(api_key, list(fetched.values()))
+        core.enrich_publications_with_corresponding_authors(api_key, list(fetched.values()))
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")
         print(f"Scopus API returned an error ({error.code}): {detail}")

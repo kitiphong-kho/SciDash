@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SCOPUS_ENDPOINT = "https://api.elsevier.com/content/search/scopus"
 SERIAL_TITLE_ENDPOINT = "https://api.elsevier.com/content/serial/title"
+ABSTRACT_RETRIEVAL_ENDPOINT = "https://api.elsevier.com/content/abstract/eid"
 AFFILIATION_WIDE_QUERY = 'AFFIL("Mae Fah Luang University") AND AFFIL("School of Science")'
 STAFF_SOURCE_URLS = {
     "Chemistry": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-chemistry.html",
@@ -154,6 +155,7 @@ ACADEMIC_STAFF = [
     staff_record("Asst. Prof. Dr. Rungrote Nilthong", "Computational Science"),
     staff_record("Asst. Prof. Dr. Theeradech Mookum", "Computational Science"),
 ]
+STAFF_BY_NAME = {staff["name"]: staff for staff in ACADEMIC_STAFF}
 
 
 def load_env_file() -> None:
@@ -526,6 +528,88 @@ def enrich_publications_with_metrics(api_key, publications):
         metric = source_metrics.get(source_key)
         if metric:
             publication.update(metric)
+
+
+def request_abstract_retrieval(api_key, eid):
+    url = f"{ABSTRACT_RETRIEVAL_ENDPOINT}/{urllib.parse.quote(eid)}"
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/json",
+            "X-ELS-APIKey": api_key,
+        },
+    )
+    cert_file = os.environ.get("SSL_CERT_FILE") or "/etc/ssl/cert.pem"
+    context = ssl.create_default_context(cafile=cert_file if Path(cert_file).exists() else None)
+
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(request, timeout=25, context=context) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504) or attempt == 1:
+                return None
+            time.sleep(1.5)
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 1:
+                return None
+            time.sleep(1.5)
+    return None
+
+
+def extract_corresponding_author_names(payload):
+    """Returns the indexed-name strings (e.g. "Bera I.") of every corresponding
+    author listed for a publication, per Scopus Abstract Retrieval's
+    `correspondence` block. Empty list if the publication has none on record
+    or the lookup failed."""
+    if not payload:
+        return []
+
+    head = (
+        payload.get("abstracts-retrieval-response", {})
+        .get("item", {})
+        .get("bibrecord", {})
+        .get("head", {})
+    )
+    correspondence = list_value(head.get("correspondence"))
+    names = []
+    for entry in correspondence:
+        person = entry.get("person", {}) if isinstance(entry, dict) else {}
+        indexed_name = text_value(person.get("ce:indexed-name"))
+        if indexed_name:
+            names.append(indexed_name)
+    return names
+
+
+def enrich_publications_with_corresponding_authors(api_key, publications):
+    """Fetches Scopus Abstract Retrieval per publication (one API call each --
+    only called for publications actually being (re)fetched this sync run, not
+    the whole accumulated history) and marks matchedStaffRoles entries as
+    "corresponding_author" where a listed staff member is on the
+    correspondence list. Best-effort: a lookup failure just leaves the
+    existing first_author/co_author role in place."""
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        future_map = {
+            executor.submit(request_abstract_retrieval, api_key, publication["id"]): publication
+            for publication in publications
+            if publication.get("matchedStaff")
+        }
+        for future in as_completed(future_map):
+            publication = future_map[future]
+            try:
+                corresponding_names = extract_corresponding_author_names(future.result())
+            except Exception:
+                continue
+            if not corresponding_names:
+                continue
+
+            roles = publication.setdefault("matchedStaffRoles", {})
+            for staff_name in publication.get("matchedStaff", []):
+                staff = STAFF_BY_NAME.get(staff_name)
+                if not staff:
+                    continue
+                if any(author_matches_staff(name, staff) for name in corresponding_names):
+                    roles[staff_name] = "corresponding_author"
 
 
 def parse_positive_int(value, default, maximum):

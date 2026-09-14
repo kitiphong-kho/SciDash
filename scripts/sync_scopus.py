@@ -94,10 +94,10 @@ def run_sync(full: bool):
 
     try:
         total_results, fetched_count, affiliation_publications = core.fetch_affiliation_publications(
-            api_key, page_size=100, start=0, date=date_range
+            api_key, page_size=25, start=0, date=date_range
         )
         staff_publication_map, staff_results = core.fetch_current_staff_matches(
-            api_key, page_size=100, start=0, date=date_range
+            api_key, page_size=25, start=0, date=date_range
         )
         core.overlay_current_staff_matches(affiliation_publications, staff_publication_map)
 

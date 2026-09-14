@@ -15,6 +15,14 @@
 
 **ข้อจำกัด:** เป็น keyword matching ไม่ได้เช็ค country code จริงจาก Scopus หน่วยงานไทยที่ไม่อยู่ใน list อาจถูกนับผิดเป็นต่างประเทศ
 
+## 0. การจับคู่ผลงานกับรายชื่ออาจารย์ (matchedStaff) — พื้นฐานของทุกหัวข้อด้านบน
+
+ที่มาโค้ด: `scripts/scidash_core.py` — `fetch_staff_publications`, `build_staff_query`, `author_matches_staff`, `fetch_affiliation_publications` → `detect_staff_matches`
+
+ระบบดึงข้อมูลผลงานของอาจารย์แต่ละคนด้วย query `AUTHLASTNAME(นามสกุล) AND AFFIL(...)` ต่อ Scopus API — query นี้กรองแค่ **นามสกุล** ฝั่ง Scopus เอง ไม่กรองชื่อจริงด้วย ดังนั้นถ้ามีอาจารย์ 2 คนนามสกุลเดียวกัน (เช่น Anant Eungwanichayapant กับ Prapassorn Damrongkool Eungwanichayapant) ผลลัพธ์ที่ Scopus คืนมาจะเป็นชุดเดียวกันสำหรับทั้งคู่ — ต้องมีการตรวจสอบซ้ำในเครื่องด้วย `author_matches_staff` (เช็คนามสกุล + ชื่อ/initial จริงจาก author list ที่ Scopus คืนมา) ก่อนจะยืนยันว่าเป็นผลงานของคนนั้นจริง — ผลงานที่ไม่มี author คนไหนตรงกับ initial/ชื่อของอาจารย์คนนั้นจะถูกตัดทิ้งจากรายชื่อของอาจารย์คนนั้น (แต่ยังไปอยู่ถูกคนของอาจารย์อีกคนที่นามสกุลตรงกันจริง)
+
+ใช้ `view=COMPLETE` (แทน `STANDARD`) ตอนเรียก Scopus Search API เพื่อให้ได้ author list เต็ม (พร้อมชื่อจริง ไม่ใช่แค่ initial ที่โดนตัดทอน) มาใช้ตรวจสอบได้แม่นยำขึ้น — ข้อแลกเปลี่ยนคือ `view=COMPLETE` จำกัด page size สูงสุดที่ 25 รายการ/request (STANDARD ได้ถึง 200) ทำให้ sync ใช้เวลานานขึ้นเล็กน้อย
+
 ## 2. Q1 / Quartile
 
 ที่มาโค้ด: `scripts/scidash_core.py` — `extract_source_metric`, `quartile_from_percentile`
@@ -57,6 +65,13 @@
 ## Changelog
 
 การแก้ไขเกณฑ์ข้างต้นทุกครั้งต้องบันทึกที่นี่ (วันที่ / เกณฑ์ที่แก้ / เหตุผล)
+
+### 2026-09-14 (2)
+- **แก้บั๊กสำคัญ: การจับคู่ผลงานข้ามคนสำหรับอาจารย์นามสกุลซ้ำ** (`scripts/scidash_core.py: fetch_staff_publications`, `request_scopus`) — ผู้ใช้แจ้งว่า Asst. Prof. Dr. Anant Eungwanichayapant มีผลงานที่ไม่ใช่ของตัวเองปรากฏอยู่ ตรวจสอบพบว่า query `AUTHLASTNAME(...)` ที่ยิงต่อ Scopus กรองแค่นามสกุล ไม่กรองชื่อจริง ทำให้ผลงานของ Asst. Prof. Dr. Prapassorn Damrongkool Eungwanichayapant (นามสกุลเดียวกัน) ถูกนับซ้ำเป็นของ Anant ด้วยทั้งหมด (ยืนยันด้วยการยิง query ตรงและดู view=COMPLETE เห็นชัดว่า author จริงคือ Prapassorn ไม่ใช่ Anant)
+  - เปลี่ยน `view` จาก `STANDARD` เป็น `COMPLETE` เพื่อได้ author list เต็ม (มีชื่อจริง ไม่ใช่แค่ initial ที่ถูกตัดทอน)
+  - เพิ่มการตรวจสอบซ้ำในเครื่องด้วย `author_matches_staff` ก่อนยืนยันว่าเป็นผลงานของอาจารย์คนนั้นจริง ถ้าไม่มี author คนไหนตรงชื่อ/initial เลย จะตัดออกจากรายชื่อของอาจารย์คนนั้น
+  - ผลข้างเคียง: `view=COMPLETE` จำกัด page size 25/request (เดิม 200) sync ใช้เวลานานขึ้น จึงลด `page_size` ใน `sync_scopus.py` จาก 100 เหลือ 25
+  - ต้องรัน full re-sync ใหม่ทั้งหมด (ไม่ใช่แค่ recompute ในเครื่อง) เพราะ query ที่ยิงไป Scopus เปลี่ยน ไม่ใช่แค่ post-processing
 
 ### 2026-09-14
 - สร้างเอกสารนี้ สรุปเกณฑ์ที่ใช้อยู่จริงในโค้ด ณ ขณะนั้น (ยังไม่มีการแก้ไขเกณฑ์ใดๆ)

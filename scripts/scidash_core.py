@@ -337,7 +337,13 @@ def request_scopus(api_key, query, count, start, date):
         "query": query,
         "count": count,
         "start": start,
-        "view": "STANDARD",
+        # STANDARD view truncates the returned author list (sometimes to a
+        # single name), which made it impossible to verify that a per-staff
+        # AUTHLASTNAME(...) hit was actually written by that staff member
+        # rather than a different person who happens to share a surname.
+        # COMPLETE returns the full author list so fetch_staff_publications
+        # can verify authorship locally (see author_matches_staff below).
+        "view": "COMPLETE",
     }
     if date:
         scopus_params["date"] = date
@@ -584,6 +590,13 @@ def fetch_staff_publications(api_key, staff, page_size, start, date):
 
         for index, entry in enumerate(entries):
             publication = normalize_scopus_entry(entry, next_start + index, [staff["name"]])
+            # AUTHLASTNAME(...) only filters by surname on Scopus's side, so a
+            # hit here does not by itself prove this staff member wrote the
+            # paper -- another person sharing the same surname would match
+            # too. Verify against the actual (full, COMPLETE-view) author
+            # list before attributing the paper to them.
+            if not any(author_matches_staff(author, staff) for author in publication["authors"]):
+                continue
             publication["matchedStaffRoles"] = {
                 staff["name"]: classify_author_role(publication, staff)
             }

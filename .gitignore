@@ -1,0 +1,8 @@
+.scidash-server.log
+.scidash-server.pid
+.env
+__pycache__/
+*.pyc
+scidash-dashboard-*.png
+data/
+logs/

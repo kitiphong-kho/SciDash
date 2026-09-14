@@ -1,0 +1,48 @@
+name: Sync Scopus data
+
+on:
+  schedule:
+    # 03:00 UTC on the 1st and 15th of every month = 10:00 Bangkok time
+    - cron: "0 3 1,15 * *"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Force a full 5-year re-sync"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run sync
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          cd scripts
+          if [ "${{ inputs.full }}" = "true" ]; then
+            python3 sync_scopus.py --full
+          else
+            python3 sync_scopus.py
+          fi
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site-data/publications.json
+          git diff --cached --quiet && echo "No data changes" || git commit -m "Sync Scopus data ($(date -u +%Y-%m-%d))"
+          git push

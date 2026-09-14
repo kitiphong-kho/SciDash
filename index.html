@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SciDash Research KPI Dashboard</title>
+    <link rel="stylesheet" href="./styles.css?v=20260603d" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <div>
+            <p class="brand-name">SciDash</p>
+            <p class="brand-subtitle">Research KPI</p>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <a class="nav-item active" href="#overview" aria-current="page">
+            <span aria-hidden="true">⌁</span>
+            Overview
+          </a>
+          <a class="nav-item" href="#publications">
+            <span aria-hidden="true">▦</span>
+            Publications
+          </a>
+          <a class="nav-item" href="#authors">
+            <span aria-hidden="true">◉</span>
+            Authors
+          </a>
+          <a class="nav-item" href="#review">
+            <span aria-hidden="true">✓</span>
+            Review Queue
+          </a>
+        </nav>
+
+        <div class="sync-panel">
+          <p class="sync-label">Data source</p>
+          <p class="sync-title" id="dataSourceTitle">Scopus API ready</p>
+          <p class="sync-copy" id="dataSourceCopy">ระบบจะ sync ข้อมูลจริงย้อนหลัง 5 ปีอัตโนมัติเมื่อมี Scopus API key</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">School of Science, Mae Fah Luang University</p>
+            <h1>Research Publications & KPI Dashboard</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button" id="refreshButton" type="button" title="Sync Scopus" aria-label="Sync Scopus">↻</button>
+            <button class="primary-button" id="exportButton" type="button">Export CSV</button>
+          </div>
+        </header>
+
+        <section class="filters" aria-label="Dashboard filters">
+          <label>
+            <span>ขอบเขตข้อมูล</span>
+            <select id="dataScopeFilter">
+              <option value="staff">Current academic staff</option>
+              <option value="affiliation">Total (affiliation-wide Scopus)</option>
+            </select>
+          </label>
+          <fieldset class="checklist-filter">
+            <legend>ปี</legend>
+            <div class="checklist-options" id="yearChecklist">
+              <label class="checklist-option">
+                <input type="checkbox" value="all" checked />
+                <span>ทุกปี</span>
+              </label>
+            </div>
+          </fieldset>
+          <label>
+            <span>สาขา</span>
+            <select id="staffGroupFilter">
+              <option value="all">ทุกสาขา</option>
+              <option value="Chemistry">Chemistry</option>
+              <option value="Biology">Biology</option>
+              <option value="Material Science Engineering">Material Science Engineering</option>
+              <option value="CIX">CIX</option>
+            </select>
+          </label>
+          <label>
+            <span>ผู้แต่ง</span>
+            <input id="authorFilter" list="authorOptions" type="search" placeholder="ทุกคน / พิมพ์ชื่อผู้แต่ง" />
+            <datalist id="authorOptions"></datalist>
+          </label>
+          <label>
+            <span>บทบาทผู้แต่ง</span>
+            <select id="authorRoleFilter">
+              <option value="all">Authors</option>
+              <option value="first_author">First author</option>
+              <option value="corresponding_author">Corresponding author</option>
+            </select>
+          </label>
+          <label>
+            <span>Quartile</span>
+            <select id="quartileFilter">
+              <option value="all">ทุก Quartile</option>
+              <option value="Q1">Q1</option>
+              <option value="Q2">Q2</option>
+              <option value="Q3">Q3</option>
+              <option value="Q4">Q4</option>
+              <option value="NA">NA</option>
+            </select>
+          </label>
+          <label>
+            <span>ค้นหา</span>
+            <input id="searchInput" type="search" placeholder="ชื่อผลงาน, DOI, วารสาร" />
+          </label>
+        </section>
+
+        <section class="status-strip" aria-live="polite">
+          <div>
+            <span class="status-dot"></span>
+            <strong id="syncStatus">ข้อมูลพร้อมใช้งาน</strong>
+          </div>
+          <p id="lastUpdated">Last updated: -</p>
+        </section>
+
+        <section class="kpi-grid" id="overview">
+          <article class="kpi-card">
+            <p>Publications</p>
+            <strong id="totalPublications">0</strong>
+            <span id="publicationDelta">-</span>
+          </article>
+          <article class="kpi-card">
+            <p>International Co-authors</p>
+            <strong id="internationalCollaborations">0</strong>
+            <span id="internationalDelta">พบ affiliation นอกประเทศไทย</span>
+          </article>
+          <article class="kpi-card">
+            <p>Citations</p>
+            <strong id="totalCitations">0</strong>
+            <span>รวม citation จากรายการที่เลือก</span>
+          </article>
+          <article class="kpi-card">
+            <p>Q1 / Total Publications</p>
+            <strong id="topQuartileRatio">0%</strong>
+            <span>สัดส่วน Q1 ต่อผลงานตีพิมพ์ทั้งหมด</span>
+          </article>
+          <article class="kpi-card">
+            <p>School h-index</p>
+            <strong id="hIndex">0</strong>
+            <span>คำนวณจาก citation ที่เลือก</span>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <article class="panel wide">
+            <div class="panel-header">
+              <div>
+                <h2>Publication Trend</h2>
+                <p>จำนวนผลงานตีพิมพ์แยกตามปี</p>
+              </div>
+            </div>
+            <canvas id="trendChart" height="240" aria-label="Publication trend chart"></canvas>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <h2>Journal Quartile</h2>
+                <p>สัดส่วน Q1-Q4</p>
+              </div>
+            </div>
+            <canvas id="quartileChart" height="240" aria-label="Quartile chart"></canvas>
+          </article>
+
+          <article class="panel" id="authors">
+            <div class="panel-header">
+              <div>
+                <h2>Top Authors</h2>
+                <p>จัดอันดับตามจำนวนผลงาน</p>
+              </div>
+            </div>
+            <div class="rank-list" id="authorRankList"></div>
+          </article>
+
+          <article class="panel wide">
+            <div class="panel-header">
+              <div>
+                <h2>Yearly Dedupe Publications</h2>
+                <p>paper หนึ่งเรื่องนับหนึ่งครั้งตามข้อมูล Scopus API</p>
+              </div>
+            </div>
+            <div class="yearly-summary" id="yearlySummary"></div>
+          </article>
+        </section>
+
+        <section class="records-section" id="publications">
+          <div class="section-heading">
+            <div>
+              <h2>Publication Records</h2>
+              <p>รายการผลงานที่ผ่านการคัดกรองเบื้องต้น</p>
+            </div>
+            <span id="recordCount">0 records</span>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ปี</th>
+                  <th>ชื่อผลงาน</th>
+                  <th>อาจารย์ที่ตรงกับรายชื่อ</th>
+                  <th>บทบาท</th>
+                  <th>วารสาร</th>
+                  <th>Quartile</th>
+                  <th>SDG</th>
+                  <th>Citations</th>
+                  <th>สถานะ</th>
+                </tr>
+              </thead>
+              <tbody id="publicationTable"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="review-section" id="review">
+          <div class="section-heading">
+            <div>
+              <h2>Review Queue</h2>
+              <p>รายการที่ต้องตรวจสอบ affiliation หรือ author mapping เพิ่มเติม</p>
+            </div>
+            <span id="reviewCount">0 pending</span>
+          </div>
+          <div class="review-grid" id="reviewGrid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js?v=20260603d"></script>
+  </body>
+</html>

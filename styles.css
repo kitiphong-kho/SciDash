@@ -126,6 +126,10 @@ select {
   cursor: pointer;
 }
 
+.nav-item[hidden] {
+  display: none;
+}
+
 .nav-item span {
   display: inline-grid;
   width: 24px;

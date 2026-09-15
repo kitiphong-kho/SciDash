@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SciDash Research KPI Dashboard</title>
-    <link rel="stylesheet" href="./styles.css?v=20260915d" />
+    <link rel="stylesheet" href="./styles.css?v=20260915e" />
   </head>
   <body>
     <div class="app-shell">
@@ -57,23 +57,18 @@
 
         <section class="filters" aria-label="Dashboard filters">
           <label>
-            <span>ขอบเขตข้อมูล</span>
+            <span>Publication Scope</span>
             <select id="dataScopeFilter">
-              <option value="staff">Current academic staff</option>
-              <option value="affiliation">Total (affiliation-wide Scopus)</option>
+              <option value="staff">Listed Academic Staff</option>
+              <option value="affiliation">All School of Science Authors</option>
             </select>
           </label>
           <fieldset class="year-range-filter">
-            <legend>ปี</legend>
+            <legend>Year Range</legend>
             <div class="year-range-options">
-              <label>
-                <span>จากปี</span>
-                <select id="yearFromFilter"></select>
-              </label>
-              <label>
-                <span>ถึงปี</span>
-                <select id="yearToFilter"></select>
-              </label>
+              <select id="yearFromFilter" aria-label="From year"></select>
+              <span class="year-range-sep" aria-hidden="true">–</span>
+              <select id="yearToFilter" aria-label="To year"></select>
             </div>
           </fieldset>
           <label>
@@ -174,6 +169,16 @@
               </div>
               <canvas id="quartileChart" height="240" aria-label="Quartile chart"></canvas>
             </article>
+
+            <article class="panel full-width">
+              <div class="panel-header">
+                <div>
+                  <h2>SDG Trend</h2>
+                  <p>แนวโน้ม SDG เด่นตามปีในช่วงที่เลือก (Top 5)</p>
+                </div>
+              </div>
+              <canvas id="sdgTrendChart" height="240" aria-label="SDG trend chart"></canvas>
+            </article>
           </section>
         </div>
 
@@ -248,6 +253,6 @@
       </main>
     </div>
 
-    <script src="./app.js?v=20260915d"></script>
+    <script src="./app.js?v=20260915e"></script>
   </body>
 </html>

@@ -201,6 +201,7 @@ const elements = {
   publicationDelta: document.querySelector("#publicationDelta"),
   trendChart: document.querySelector("#trendChart"),
   quartileChart: document.querySelector("#quartileChart"),
+  sdgTrendChart: document.querySelector("#sdgTrendChart"),
   authorRankList: document.querySelector("#authorRankList"),
   yearlySummary: document.querySelector("#yearlySummary"),
   publicationTable: document.querySelector("#publicationTable"),
@@ -345,7 +346,7 @@ function getSdgLabel(sdg) {
 }
 
 function getScopeLabel(scope) {
-  return scope === "affiliation" ? "Total (affiliation-wide Scopus)" : "Current academic staff";
+  return scope === "affiliation" ? "All School of Science Authors" : "Listed Academic Staff";
 }
 
 function getAffiliationParts(item) {
@@ -554,6 +555,42 @@ function getQuartiles(items) {
   }));
 }
 
+function getSdgTrend(items) {
+  const years = [...new Set(publications.map((item) => item.year))].filter(Boolean).sort((a, b) => a - b);
+  const totalByCode = new Map();
+  const labelByCode = new Map();
+  const countsByCode = new Map();
+
+  items.forEach((item) => {
+    getSdgs(item).forEach((sdg) => {
+      const code = typeof sdg === "string" ? sdg : sdg.code || "SDG";
+      const label = typeof sdg === "string" ? sdg : sdg.label || code;
+      totalByCode.set(code, (totalByCode.get(code) || 0) + 1);
+      if (!labelByCode.has(code)) {
+        labelByCode.set(code, label);
+      }
+      if (!countsByCode.has(code)) {
+        countsByCode.set(code, new Map());
+      }
+      const yearCounts = countsByCode.get(code);
+      yearCounts.set(item.year, (yearCounts.get(item.year) || 0) + 1);
+    });
+  });
+
+  const topCodes = [...totalByCode.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([code]) => code);
+
+  const series = topCodes.map((code) => ({
+    code,
+    label: labelByCode.get(code) || code,
+    counts: years.map((year) => countsByCode.get(code)?.get(year) || 0),
+  }));
+
+  return { years, series };
+}
+
 function getAuthorRanking(items) {
   const counts = new Map();
   const groups = new Map();
@@ -642,6 +679,90 @@ function drawTrendChart(data) {
     context.fillText(String(item.count), x + barWidth / 2, y - 8);
     context.fillStyle = "#64727f";
     context.fillText(String(item.year), x + barWidth / 2, height - 12);
+  });
+}
+
+const SDG_TREND_COLORS = ["#0046be", "#af192b", "#0bb451", "#f26539", "#65c8e8"];
+
+function drawSdgTrendChart(data) {
+  const { context, width, height } = resizeCanvas(elements.sdgTrendChart);
+  context.clearRect(0, 0, width, height);
+
+  const { years, series } = data;
+  const hasData = years.length && series.some((item) => item.counts.some((count) => count > 0));
+  if (!hasData) {
+    context.fillStyle = "#64727f";
+    context.textAlign = "center";
+    context.font = "14px system-ui";
+    context.fillText("ไม่มีข้อมูล", width / 2, height / 2);
+    return;
+  }
+
+  const padding = { top: 40, right: 18, bottom: 36, left: 38 };
+  const chartWidth = width - padding.left - padding.right;
+  const chartHeight = height - padding.top - padding.bottom;
+  const maxValue = Math.max(1, ...series.flatMap((item) => item.counts));
+  const stepX = years.length > 1 ? chartWidth / (years.length - 1) : 0;
+
+  context.strokeStyle = "#d9e1e7";
+  context.lineWidth = 1;
+  context.fillStyle = "#64727f";
+  context.font = "12px system-ui";
+
+  for (let i = 0; i <= 4; i += 1) {
+    const y = padding.top + chartHeight * (i / 4);
+    context.beginPath();
+    context.moveTo(padding.left, y);
+    context.lineTo(width - padding.right, y);
+    context.stroke();
+  }
+
+  years.forEach((year, index) => {
+    const x = padding.left + stepX * index;
+    context.fillStyle = "#64727f";
+    context.textAlign = "center";
+    context.fillText(String(year), x, height - 12);
+  });
+
+  series.forEach((item, seriesIndex) => {
+    const color = SDG_TREND_COLORS[seriesIndex % SDG_TREND_COLORS.length];
+    context.strokeStyle = color;
+    context.fillStyle = color;
+    context.lineWidth = 2;
+    context.beginPath();
+    item.counts.forEach((count, index) => {
+      const x = padding.left + stepX * index;
+      const y = padding.top + chartHeight - (count / maxValue) * chartHeight;
+      if (index === 0) {
+        context.moveTo(x, y);
+      } else {
+        context.lineTo(x, y);
+      }
+    });
+    context.stroke();
+
+    item.counts.forEach((count, index) => {
+      const x = padding.left + stepX * index;
+      const y = padding.top + chartHeight - (count / maxValue) * chartHeight;
+      context.beginPath();
+      context.arc(x, y, 3, 0, Math.PI * 2);
+      context.fill();
+    });
+  });
+
+  // Legend row across the top of the chart.
+  let legendX = padding.left;
+  const legendY = 16;
+  context.font = "12px system-ui";
+  series.forEach((item, seriesIndex) => {
+    const color = SDG_TREND_COLORS[seriesIndex % SDG_TREND_COLORS.length];
+    context.fillStyle = color;
+    context.fillRect(legendX, legendY - 8, 10, 10);
+    context.fillStyle = "#172026";
+    context.textAlign = "left";
+    const label = item.code;
+    context.fillText(label, legendX + 14, legendY + 1);
+    legendX += context.measureText(label).width + 34;
   });
 }
 
@@ -851,6 +972,7 @@ function render() {
   renderKpis(items);
   drawTrendChart(getTrend(items));
   drawQuartileChart(getQuartiles(items));
+  drawSdgTrendChart(getSdgTrend(items));
   renderAuthorRanking(items);
   renderYearlySummary(items);
   renderTable(items);

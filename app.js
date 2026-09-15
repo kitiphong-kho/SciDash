@@ -163,20 +163,26 @@ const samplePublications = publications.map((item) => ({ ...item, authors: [...i
 publications = [];
 let staffDirectory = [];
 
+const TABLE_PAGE_SIZE = 50;
+const DEFAULT_YEAR_WINDOW = 5;
+
 const state = {
   dataScope: "staff",
-  selectedYears: new Set(),
+  yearFrom: null,
+  yearTo: null,
   author: "",
   staffGroup: "all",
   authorRole: "all",
   quartile: "all",
   search: "",
   dataSource: "empty",
+  tableVisibleCount: TABLE_PAGE_SIZE,
 };
 
 const elements = {
   dataScopeFilter: document.querySelector("#dataScopeFilter"),
-  yearChecklist: document.querySelector("#yearChecklist"),
+  yearFromFilter: document.querySelector("#yearFromFilter"),
+  yearToFilter: document.querySelector("#yearToFilter"),
   authorFilter: document.querySelector("#authorFilter"),
   authorOptions: document.querySelector("#authorOptions"),
   staffGroupFilter: document.querySelector("#staffGroupFilter"),
@@ -195,6 +201,7 @@ const elements = {
   authorRankList: document.querySelector("#authorRankList"),
   yearlySummary: document.querySelector("#yearlySummary"),
   publicationTable: document.querySelector("#publicationTable"),
+  loadMoreButton: document.querySelector("#loadMoreButton"),
   recordCount: document.querySelector("#recordCount"),
   reviewGrid: document.querySelector("#reviewGrid"),
   reviewCount: document.querySelector("#reviewCount"),
@@ -388,7 +395,7 @@ function renderSdgs(item) {
 
 function populateFilters() {
   const years = unique(publications.map((item) => item.year)).sort((a, b) => b - a);
-  populateYearChecklist(years);
+  populateYearRange(years);
   elements.staffGroupFilter.innerHTML = '<option value="all">ทุกสาขา</option>';
 
   staffGroupOptions.forEach((group) => {
@@ -445,38 +452,48 @@ function populateAuthorFilter() {
   elements.authorFilter.value = state.author;
 }
 
-function createYearCheckbox(value, label, checked) {
-  const wrapper = document.createElement("label");
-  wrapper.className = "checklist-option";
-  wrapper.innerHTML = `
-    <input type="checkbox" value="${escapeHtml(value)}" ${checked ? "checked" : ""} />
-    <span>${escapeHtml(label)}</span>
-  `;
-  return wrapper;
+function populateYearRange(years) {
+  if (!years.length) {
+    elements.yearFromFilter.innerHTML = "";
+    elements.yearToFilter.innerHTML = "";
+    state.yearFrom = null;
+    state.yearTo = null;
+    return;
+  }
+
+  const minYear = Math.min(...years);
+  const maxYear = Math.max(...years);
+  const options = [];
+  for (let year = maxYear; year >= minYear; year -= 1) {
+    options.push(year);
+  }
+
+  const optionsHtml = options.map((year) => `<option value="${year}">${year}</option>`).join("");
+  elements.yearFromFilter.innerHTML = optionsHtml;
+  elements.yearToFilter.innerHTML = optionsHtml;
+
+  // Default to the last DEFAULT_YEAR_WINDOW years -- keeps the initial load
+  // fast and focused even as data accumulates across many more years.
+  state.yearFrom = Math.max(minYear, maxYear - (DEFAULT_YEAR_WINDOW - 1));
+  state.yearTo = maxYear;
+  syncYearRangeControls();
 }
 
-function populateYearChecklist(years) {
-  elements.yearChecklist.innerHTML = "";
-  elements.yearChecklist.append(createYearCheckbox("all", "ทุกปี", state.selectedYears.size === 0));
-  years.forEach((year) => {
-    const value = String(year);
-    elements.yearChecklist.append(createYearCheckbox(value, value, state.selectedYears.has(value)));
-  });
-}
-
-function syncYearChecklist() {
-  const inputs = elements.yearChecklist.querySelectorAll('input[type="checkbox"]');
-  inputs.forEach((input) => {
-    input.checked = input.value === "all" ? state.selectedYears.size === 0 : state.selectedYears.has(input.value);
-  });
+function syncYearRangeControls() {
+  if (state.yearFrom !== null) {
+    elements.yearFromFilter.value = String(state.yearFrom);
+  }
+  if (state.yearTo !== null) {
+    elements.yearToFilter.value = String(state.yearTo);
+  }
 }
 
 function matchesYearFilter(year) {
-  if (state.selectedYears.size === 0) {
+  if (state.yearFrom === null || state.yearTo === null) {
     return true;
   }
 
-  return state.selectedYears.has(String(year));
+  return year >= state.yearFrom && year <= state.yearTo;
 }
 
 function getFilteredPublications() {
@@ -761,16 +778,21 @@ function renderYearlySummary(items) {
 
 function renderTable(items) {
   elements.publicationTable.innerHTML = "";
-  elements.recordCount.textContent = `${items.length} records`;
 
   if (!items.length) {
+    elements.recordCount.textContent = "0 records";
+    elements.loadMoreButton.hidden = true;
     const row = document.createElement("tr");
     row.innerHTML = '<td colspan="9" class="empty-state">ไม่พบข้อมูลตามตัวกรองนี้</td>';
     elements.publicationTable.append(row);
     return;
   }
 
-  items.forEach((item) => {
+  const visibleItems = items.slice(0, state.tableVisibleCount);
+  elements.recordCount.textContent = `${visibleItems.length} / ${items.length} records`;
+  elements.loadMoreButton.hidden = visibleItems.length >= items.length;
+
+  visibleItems.forEach((item) => {
     const row = document.createElement("tr");
     row.innerHTML = `
       <td>${item.year}</td>
@@ -851,19 +873,20 @@ function setSyncMessage(message) {
 }
 
 function resetFilterValues() {
-  state.selectedYears.clear();
+  // yearFrom/yearTo are set by populateYearRange (called right after this,
+  // once the newly loaded publications are known) -- not reset here.
   state.author = "";
   state.staffGroup = "all";
   state.authorRole = "all";
   state.quartile = "all";
   state.search = "";
+  state.tableVisibleCount = TABLE_PAGE_SIZE;
   elements.dataScopeFilter.value = state.dataScope;
   elements.authorFilter.value = "";
   elements.staffGroupFilter.value = "all";
   elements.authorRoleFilter.value = "all";
   elements.quartileFilter.value = "all";
   elements.searchInput.value = "";
-  syncYearChecklist();
   syncScopeControls();
 }
 
@@ -998,47 +1021,58 @@ function exportCsv() {
   URL.revokeObjectURL(url);
 }
 
+function applyFilterChange() {
+  // Any filter change shows page 1 of the table again, instead of leaving
+  // "load more" at whatever depth it was at for the previous filter.
+  state.tableVisibleCount = TABLE_PAGE_SIZE;
+  render();
+}
+
 function wireEvents() {
   elements.dataScopeFilter.addEventListener("change", (event) => {
     state.dataScope = event.target.value;
     syncScopeControls();
     loadScopusData();
   });
-  elements.yearChecklist.addEventListener("change", (event) => {
-    if (event.target.type !== "checkbox") {
-      return;
+  elements.yearFromFilter.addEventListener("change", (event) => {
+    state.yearFrom = Number(event.target.value);
+    if (state.yearFrom > state.yearTo) {
+      state.yearTo = state.yearFrom;
+      elements.yearToFilter.value = String(state.yearTo);
     }
-
-    if (event.target.value === "all") {
-      state.selectedYears.clear();
-    } else if (event.target.checked) {
-      state.selectedYears.add(event.target.value);
-    } else {
-      state.selectedYears.delete(event.target.value);
+    applyFilterChange();
+  });
+  elements.yearToFilter.addEventListener("change", (event) => {
+    state.yearTo = Number(event.target.value);
+    if (state.yearTo < state.yearFrom) {
+      state.yearFrom = state.yearTo;
+      elements.yearFromFilter.value = String(state.yearFrom);
     }
-
-    syncYearChecklist();
-    render();
+    applyFilterChange();
   });
   elements.authorFilter.addEventListener("input", (event) => {
     state.author = event.target.value;
-    render();
+    applyFilterChange();
   });
   elements.staffGroupFilter.addEventListener("change", (event) => {
     state.staffGroup = event.target.value;
     populateAuthorFilter();
-    render();
+    applyFilterChange();
   });
   elements.authorRoleFilter.addEventListener("change", (event) => {
     state.authorRole = event.target.value;
-    render();
+    applyFilterChange();
   });
   elements.quartileFilter.addEventListener("change", (event) => {
     state.quartile = event.target.value;
-    render();
+    applyFilterChange();
   });
   elements.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value;
+    applyFilterChange();
+  });
+  elements.loadMoreButton.addEventListener("click", () => {
+    state.tableVisibleCount += TABLE_PAGE_SIZE;
     render();
   });
   elements.refreshButton.addEventListener("click", loadScopusData);

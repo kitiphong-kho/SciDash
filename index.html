@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SciDash Research KPI Dashboard</title>
-    <link rel="stylesheet" href="./styles.css?v=20260915b" />
+    <link rel="stylesheet" href="./styles.css?v=20260915c" />
   </head>
   <body>
     <div class="app-shell">
@@ -63,12 +63,16 @@
               <option value="affiliation">Total (affiliation-wide Scopus)</option>
             </select>
           </label>
-          <fieldset class="checklist-filter">
+          <fieldset class="year-range-filter">
             <legend>ปี</legend>
-            <div class="checklist-options" id="yearChecklist">
-              <label class="checklist-option">
-                <input type="checkbox" value="all" checked />
-                <span>ทุกปี</span>
+            <div class="year-range-options">
+              <label>
+                <span>จากปี</span>
+                <select id="yearFromFilter"></select>
+              </label>
+              <label>
+                <span>ถึงปี</span>
+                <select id="yearToFilter"></select>
               </label>
             </div>
           </fieldset>
@@ -218,6 +222,7 @@
               <tbody id="publicationTable"></tbody>
             </table>
           </div>
+          <button class="icon-button load-more-button" id="loadMoreButton" type="button" hidden>โหลดเพิ่มเติม</button>
         </section>
 
         <section class="review-section" id="review">
@@ -233,6 +238,6 @@
       </main>
     </div>
 
-    <script src="./app.js?v=20260915b"></script>
+    <script src="./app.js?v=20260915c"></script>
   </body>
 </html>

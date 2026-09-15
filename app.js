@@ -167,6 +167,7 @@ const TABLE_PAGE_SIZE = 50;
 const DEFAULT_YEAR_WINDOW = 5;
 
 const state = {
+  activeView: "overview",
   dataScope: "staff",
   yearFrom: null,
   yearTo: null,
@@ -180,6 +181,8 @@ const state = {
 };
 
 const elements = {
+  navItems: document.querySelectorAll(".nav-item"),
+  views: document.querySelectorAll(".view"),
   dataScopeFilter: document.querySelector("#dataScopeFilter"),
   yearFromFilter: document.querySelector("#yearFromFilter"),
   yearToFilter: document.querySelector("#yearToFilter"),
@@ -854,6 +857,28 @@ function render() {
   renderReview(items);
 }
 
+function setActiveView(view) {
+  state.activeView = view;
+
+  elements.views.forEach((section) => {
+    section.hidden = section.dataset.view !== view;
+  });
+
+  elements.navItems.forEach((button) => {
+    const isActive = button.dataset.view === view;
+    button.classList.toggle("active", isActive);
+    if (isActive) {
+      button.setAttribute("aria-current", "page");
+    } else {
+      button.removeAttribute("aria-current");
+    }
+  });
+
+  // Charts live in the Overview view -- their canvas has zero size while
+  // hidden, so redraw once it's actually visible again.
+  render();
+}
+
 function syncScopeControls() {
   const isAffiliationScope = state.dataScope === "affiliation";
   elements.staffGroupFilter.disabled = isAffiliationScope;
@@ -1029,6 +1054,11 @@ function applyFilterChange() {
 }
 
 function wireEvents() {
+  elements.navItems.forEach((button) => {
+    button.addEventListener("click", () => {
+      setActiveView(button.dataset.view);
+    });
+  });
   elements.dataScopeFilter.addEventListener("change", (event) => {
     state.dataScope = event.target.value;
     syncScopeControls();

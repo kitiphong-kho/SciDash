@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SciDash Research KPI Dashboard</title>
-    <link rel="stylesheet" href="./styles.css?v=20260915c" />
+    <link rel="stylesheet" href="./styles.css?v=20260915d" />
   </head>
   <body>
     <div class="app-shell">
@@ -18,22 +18,22 @@
         </div>
 
         <nav class="nav-list">
-          <a class="nav-item active" href="#overview" aria-current="page">
+          <button class="nav-item active" data-view="overview" type="button" aria-current="page">
             <span aria-hidden="true">⌁</span>
             Overview
-          </a>
-          <a class="nav-item" href="#publications">
+          </button>
+          <button class="nav-item" data-view="publications" type="button">
             <span aria-hidden="true">▦</span>
             Publications
-          </a>
-          <a class="nav-item" href="#authors">
+          </button>
+          <button class="nav-item" data-view="authors" type="button">
             <span aria-hidden="true">◉</span>
             Authors
-          </a>
-          <a class="nav-item" href="#review">
+          </button>
+          <button class="nav-item" data-view="review" type="button">
             <span aria-hidden="true">✓</span>
             Review Queue
-          </a>
+          </button>
         </nav>
 
         <div class="sync-panel">
@@ -125,119 +125,129 @@
           <p id="lastUpdated">Last updated: -</p>
         </section>
 
-        <section class="kpi-grid" id="overview">
-          <article class="kpi-card">
-            <p>Publications</p>
-            <strong id="totalPublications">0</strong>
-            <span id="publicationDelta">-</span>
-          </article>
-          <article class="kpi-card">
-            <p>International Co-authors</p>
-            <strong id="internationalCollaborations">0</strong>
-            <span id="internationalDelta">พบ affiliation นอกประเทศไทย</span>
-          </article>
-          <article class="kpi-card">
-            <p>Citations</p>
-            <strong id="totalCitations">0</strong>
-            <span>รวม citation จากรายการที่เลือก</span>
-          </article>
-          <article class="kpi-card">
-            <p>Q1 / Total Publications</p>
-            <strong id="topQuartileRatio">0%</strong>
-            <span>สัดส่วน Q1 ต่อผลงานตีพิมพ์ทั้งหมด</span>
-          </article>
-          <article class="kpi-card">
-            <p>School h-index</p>
-            <strong id="hIndex">0</strong>
-            <span>คำนวณจาก citation ที่เลือก</span>
-          </article>
-        </section>
+        <div class="view" data-view="overview">
+          <section class="kpi-grid">
+            <article class="kpi-card">
+              <p>Publications</p>
+              <strong id="totalPublications">0</strong>
+              <span id="publicationDelta">-</span>
+            </article>
+            <article class="kpi-card">
+              <p>International Co-authors</p>
+              <strong id="internationalCollaborations">0</strong>
+              <span id="internationalDelta">พบ affiliation นอกประเทศไทย</span>
+            </article>
+            <article class="kpi-card">
+              <p>Citations</p>
+              <strong id="totalCitations">0</strong>
+              <span>รวม citation จากรายการที่เลือก</span>
+            </article>
+            <article class="kpi-card">
+              <p>Q1 / Total Publications</p>
+              <strong id="topQuartileRatio">0%</strong>
+              <span>สัดส่วน Q1 ต่อผลงานตีพิมพ์ทั้งหมด</span>
+            </article>
+            <article class="kpi-card">
+              <p>School h-index</p>
+              <strong id="hIndex">0</strong>
+              <span>คำนวณจาก citation ที่เลือก</span>
+            </article>
+          </section>
 
-        <section class="dashboard-grid">
-          <article class="panel wide">
-            <div class="panel-header">
-              <div>
-                <h2>Publication Trend</h2>
-                <p>จำนวนผลงานตีพิมพ์แยกตามปี</p>
+          <section class="dashboard-grid">
+            <article class="panel wide">
+              <div class="panel-header">
+                <div>
+                  <h2>Publication Trend</h2>
+                  <p>จำนวนผลงานตีพิมพ์แยกตามปี</p>
+                </div>
               </div>
-            </div>
-            <canvas id="trendChart" height="240" aria-label="Publication trend chart"></canvas>
-          </article>
+              <canvas id="trendChart" height="240" aria-label="Publication trend chart"></canvas>
+            </article>
 
-          <article class="panel">
-            <div class="panel-header">
-              <div>
-                <h2>Journal Quartile</h2>
-                <p>สัดส่วน Q1-Q4</p>
+            <article class="panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Journal Quartile</h2>
+                  <p>สัดส่วน Q1-Q4</p>
+                </div>
               </div>
-            </div>
-            <canvas id="quartileChart" height="240" aria-label="Quartile chart"></canvas>
-          </article>
+              <canvas id="quartileChart" height="240" aria-label="Quartile chart"></canvas>
+            </article>
+          </section>
+        </div>
 
-          <article class="panel" id="authors">
-            <div class="panel-header">
-              <div>
-                <h2>Top Authors</h2>
-                <p>จัดอันดับตามจำนวนผลงาน</p>
+        <div class="view" data-view="authors" hidden>
+          <section class="dashboard-grid">
+            <article class="panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Top Authors</h2>
+                  <p>จัดอันดับตามจำนวนผลงาน</p>
+                </div>
               </div>
-            </div>
-            <div class="rank-list" id="authorRankList"></div>
-          </article>
+              <div class="rank-list" id="authorRankList"></div>
+            </article>
 
-          <article class="panel wide">
-            <div class="panel-header">
-              <div>
-                <h2>Yearly Dedupe Publications</h2>
-                <p>paper หนึ่งเรื่องนับหนึ่งครั้งตามข้อมูล Scopus API</p>
+            <article class="panel wide">
+              <div class="panel-header">
+                <div>
+                  <h2>Yearly Dedupe Publications</h2>
+                  <p>paper หนึ่งเรื่องนับหนึ่งครั้งตามข้อมูล Scopus API</p>
+                </div>
               </div>
-            </div>
-            <div class="yearly-summary" id="yearlySummary"></div>
-          </article>
-        </section>
+              <div class="yearly-summary" id="yearlySummary"></div>
+            </article>
+          </section>
+        </div>
 
-        <section class="records-section" id="publications">
-          <div class="section-heading">
-            <div>
-              <h2>Publication Records</h2>
-              <p>รายการผลงานที่ผ่านการคัดกรองเบื้องต้น</p>
+        <div class="view" data-view="publications" hidden>
+          <section class="records-section">
+            <div class="section-heading">
+              <div>
+                <h2>Publication Records</h2>
+                <p>รายการผลงานที่ผ่านการคัดกรองเบื้องต้น</p>
+              </div>
+              <span id="recordCount">0 records</span>
             </div>
-            <span id="recordCount">0 records</span>
-          </div>
 
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>ปี</th>
-                  <th>ชื่อผลงาน</th>
-                  <th>อาจารย์ที่ตรงกับรายชื่อ</th>
-                  <th>บทบาท</th>
-                  <th>วารสาร</th>
-                  <th>Quartile</th>
-                  <th>SDG</th>
-                  <th>Citations</th>
-                  <th>สถานะ</th>
-                </tr>
-              </thead>
-              <tbody id="publicationTable"></tbody>
-            </table>
-          </div>
-          <button class="icon-button load-more-button" id="loadMoreButton" type="button" hidden>โหลดเพิ่มเติม</button>
-        </section>
-
-        <section class="review-section" id="review">
-          <div class="section-heading">
-            <div>
-              <h2>Review Queue</h2>
-              <p>รายการที่ต้องตรวจสอบ affiliation หรือ author mapping เพิ่มเติม</p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>ปี</th>
+                    <th>ชื่อผลงาน</th>
+                    <th>อาจารย์ที่ตรงกับรายชื่อ</th>
+                    <th>บทบาท</th>
+                    <th>วารสาร</th>
+                    <th>Quartile</th>
+                    <th>SDG</th>
+                    <th>Citations</th>
+                    <th>สถานะ</th>
+                  </tr>
+                </thead>
+                <tbody id="publicationTable"></tbody>
+              </table>
             </div>
-            <span id="reviewCount">0 pending</span>
-          </div>
-          <div class="review-grid" id="reviewGrid"></div>
-        </section>
+            <button class="icon-button load-more-button" id="loadMoreButton" type="button" hidden>โหลดเพิ่มเติม</button>
+          </section>
+        </div>
+
+        <div class="view" data-view="review" hidden>
+          <section class="review-section">
+            <div class="section-heading">
+              <div>
+                <h2>Review Queue</h2>
+                <p>รายการที่ต้องตรวจสอบ affiliation หรือ author mapping เพิ่มเติม</p>
+              </div>
+              <span id="reviewCount">0 pending</span>
+            </div>
+            <div class="review-grid" id="reviewGrid"></div>
+          </section>
+        </div>
       </main>
     </div>
 
-    <script src="./app.js?v=20260915c"></script>
+    <script src="./app.js?v=20260915d"></script>
   </body>
 </html>

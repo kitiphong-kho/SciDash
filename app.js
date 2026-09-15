@@ -1098,10 +1098,10 @@ async function loadScopusData(forceReload) {
     }
 
     setPublications(scoped, "scopus", payload.staff || []);
-    elements.dataSourceTitle.textContent = "Synced data";
-    const groupSummary = scope === "staff" && payload.staffGroups?.length ? ` กลุ่มสาขา: ${payload.staffGroups.join(", ")}` : "";
     const syncedAtText = payload.lastSyncedAt ? new Date(payload.lastSyncedAt).toLocaleString("th-TH") : "ไม่ทราบเวลา";
-    elements.dataSourceCopy.textContent = `โหมด ${scopeLabel}: ${scoped.length} รายการ (sync ล่าสุด ${syncedAtText}).${groupSummary}`;
+    elements.dataSourceTitle.textContent = `Scopus data updated: ${syncedAtText}`;
+    const groupSummary = scope === "staff" && payload.staffGroups?.length ? ` กลุ่มสาขา: ${payload.staffGroups.join(", ")}` : "";
+    elements.dataSourceCopy.textContent = `โหมด ${scopeLabel}: ${scoped.length} รายการ.${groupSummary}`;
     setSyncMessage(`โหลดข้อมูลสำเร็จ (sync ล่าสุด ${syncedAtText})`);
   } catch (error) {
     setPublications([], "empty", []);

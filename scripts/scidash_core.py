@@ -207,6 +207,14 @@ def normalize_scopus_entry(entry, index, matched_staff=None):
     if not affiliation_text:
         affiliation_text = "Affiliation not returned by Scopus Search"
 
+    # Scopus already returns a country per affiliation -- use it directly
+    # instead of guessing country from the affiliation text with keywords.
+    affiliation_countries = sorted({
+        text_value(item.get("affiliation-country"))
+        for item in affiliations
+        if isinstance(item, dict) and text_value(item.get("affiliation-country"))
+    })
+
     matched_staff = matched_staff or []
     publication = {
         "id": eid,
@@ -225,6 +233,7 @@ def normalize_scopus_entry(entry, index, matched_staff=None):
         "authors": authors,
         "matchedStaff": matched_staff,
         "affiliation": affiliation_text,
+        "affiliationCountries": affiliation_countries,
         "status": "verified" if matched_staff else "review",
         "reviewReason": "Quartile and school-level affiliation should be verified",
         "schoolAffiliationVerified": bool(matched_staff),

@@ -4,16 +4,14 @@
 
 ## 1. International Co-authors
 
-ที่มาโค้ด: `app.js` — `getAffiliationParts`, `isThaiAffiliation`, `isLikelyOrganization`, `hasForeignCoauthorAffiliation`
+ที่มาโค้ด: `scripts/scidash_core.py: normalize_scopus_entry` (สร้างฟิลด์ `affiliationCountries`); `app.js: hasForeignCoauthorAffiliation`
 
-คำนวณจากฟิลด์ `affiliation` (ข้อความ affiliation ที่ Scopus คืนมา ต่อผลงาน 1 ชิ้น):
+ใช้ฟิลด์ `affiliation-country` ที่ **Scopus ส่งมาให้ตรงๆ ต่อ affiliation แต่ละอัน** (ไม่ใช่การเดา) — เก็บเป็น `affiliationCountries` (list ประเทศไม่ซ้ำ) ต่อผลงาน 1 ชิ้นตอน sync:
 
-1. แยกข้อความด้วย `;` เป็นรายชื่อหน่วยงานทีละรายการ
-2. ตัดออกถ้าเข้าข่าย "หน่วยงานไทย" — มีคำใดคำหนึ่งใน `thaiAffiliationTerms` (เช่น `thailand`, `mae fah luang`, `chiang rai`, ชื่อมหาวิทยาลัยไทยหลัก, `nstda`, `biotec` ฯลฯ)
-3. ต้องดูเหมือนหน่วยงานจริง — มีคำใดคำหนึ่งใน `organizationTerms` (เช่น `university`, `institute`, `hospital`, `faculty`, `department`)
-4. ถ้าเหลือ affiliation อย่างน้อย 1 รายการที่ผ่านทั้ง 2 เงื่อนไข (ไม่ใช่ไทย + ดูเหมือนหน่วยงาน) → นับผลงานนั้นว่ามี international co-author
+1. ผลงานมีรายชื่อ country อย่างน้อย 1 ประเทศที่ไม่ใช่ `Thailand` (case-insensitive) → นับว่ามี international co-author
+2. ถ้าไม่มีข้อมูล `affiliationCountries` เลย (ผลงานเก่าที่ sync ก่อนมีฟีเจอร์นี้) → fallback ไปใช้วิธีเดิม (keyword matching จากข้อความ affiliation ผ่าน `getAffiliationParts`, `isThaiAffiliation`, `isLikelyOrganization`)
 
-**ข้อจำกัด:** เป็น keyword matching ไม่ได้เช็ค country code จริงจาก Scopus หน่วยงานไทยที่ไม่อยู่ใน list อาจถูกนับผิดเป็นต่างประเทศ
+**ไม่มีข้อจำกัดเรื่อง keyword matching อีกต่อไป** (แก้ไปแล้ว) เพราะใช้ country code จริงจาก Scopus โดยตรง ไม่ใช่การเดา
 
 ## 0. การจับคู่ผลงานกับรายชื่ออาจารย์ (matchedStaff) — พื้นฐานของทุกหัวข้อด้านบน
 
@@ -71,6 +69,12 @@
 ## Changelog
 
 การแก้ไขเกณฑ์ข้างต้นทุกครั้งต้องบันทึกที่นี่ (วันที่ / เกณฑ์ที่แก้ / เหตุผล)
+
+### 2026-09-15
+- **แก้เกณฑ์ International Co-authors ให้ใช้ country code จริงจาก Scopus** (`scripts/scidash_core.py: normalize_scopus_entry` เพิ่มฟิลด์ `affiliationCountries`; `app.js: hasForeignCoauthorAffiliation`) — เดิมเดาจาก keyword matching (เช็คคำว่า "university"/"thailand" ในข้อความ affiliation) ผู้ใช้ถามว่าดึง country จริงได้ไหม ตรวจสอบพบว่า Scopus ส่ง `affiliation-country` มาให้ตรงๆ อยู่แล้วในข้อมูลที่ดึงมาอยู่แล้ว (ไม่ต้องเพิ่ม API call) แค่โค้ดเดิมทิ้งฟิลด์นี้ไป
+  - เปลี่ยนมาเก็บ `affiliationCountries` (list ประเทศจริงจาก Scopus) ต่อผลงาน แล้วเช็คว่ามีประเทศอื่นนอกจาก Thailand ไหม แทนการเดาด้วย keyword
+  - ผลเทียบกับข้อมูลจริง: keyword-based เดิมนับ 749 ผลงานเป็น international, ของจริง (country-based) คือ 716 ผลงาน (keyword เดิมนับเกินไป ~33 ผลงาน)
+  - คง fallback ไปใช้ keyword matching ไว้เผื่อผลงานเก่าที่ sync ก่อนมีฟีเจอร์นี้ (ไม่มี `affiliationCountries`)
 
 ### 2026-09-14 (4)
 - **แก้บั๊ก: ตัวกรอง "ผู้แต่ง" + "บทบาทผู้แต่ง" จับคู่ผิดคน** (`app.js: getFilteredPublications`) — ผู้ใช้แจ้งว่าเลือกกรอง Asst. Prof. Dr. Kitiphong Khongphinitbunjong + Corresponding author แล้วขึ้นผลงานที่จริงๆ อาจารย์ท่านอื่น (ที่ match อยู่ในผลงานเดียวกัน) เป็น corresponding author ไม่ใช่ Kitiphong

@@ -362,6 +362,12 @@ function getForeignAffiliations(item) {
 }
 
 function hasForeignCoauthorAffiliation(item) {
+  // affiliationCountries comes straight from Scopus's own affiliation-country
+  // field -- exact, no guessing. Fall back to the old keyword heuristic only
+  // for records synced before this field existed.
+  if (Array.isArray(item.affiliationCountries) && item.affiliationCountries.length) {
+    return item.affiliationCountries.some((country) => country.trim().toLowerCase() !== "thailand");
+  }
   return getForeignAffiliations(item).length > 0;
 }
 

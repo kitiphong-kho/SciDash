@@ -215,7 +215,7 @@ const authorRoleLabels = {
   corresponding_author: "Corresponding author",
   co_author: "Co-author",
 };
-const staffGroupOptions = ["Chemistry", "Biology", "Material Science Engineering", "CIX"];
+const staffGroupOptions = ["APC", "Bio", "MSE", "CIX"];
 const thaiAffiliationTerms = [
   "thailand",
   "mae fah luang",

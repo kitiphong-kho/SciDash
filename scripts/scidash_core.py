@@ -22,11 +22,11 @@ STAFF_SOURCE_URLS = {
     "Material Science and Engineering": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-material-and-enginee.html",
     "Computational Science": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-computational-science.html",
 }
-STAFF_GROUPS = ("Chemistry", "Biology", "Material Science Engineering", "CIX")
+STAFF_GROUPS = ("APC", "Bio", "MSE", "CIX")
 STAFF_GROUP_BY_DEPARTMENT = {
-    "Chemistry": "Chemistry",
-    "Bioscience": "Biology",
-    "Material Science and Engineering": "Material Science Engineering",
+    "Chemistry": "APC",
+    "Bioscience": "Bio",
+    "Material Science and Engineering": "MSE",
 }
 SOURCE_METRIC_CACHE = {}
 SOURCE_METRIC_TTL_SECONDS = 86400

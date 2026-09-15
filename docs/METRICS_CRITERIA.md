@@ -27,15 +27,16 @@
 
 มาจาก Scopus CiteScore (Serial Title API) ไม่ได้คำนวณเอง:
 
-1. ดึง CiteScore ปีล่าสุดที่สถานะ `Complete` ของวารสารนั้น
-2. หา percentile สูงสุดในบรรดา subject category ที่วารสารถูกจัดอยู่ (เลือกค่าที่ดีที่สุด ถ้าอยู่หลายสาขา)
-3. แปลง percentile → quartile:
+1. ยิง Serial Title API **ครั้งเดียวต่อวารสาร** (ไม่ใช่ต่อผลงานหรือต่อปี) — response ที่ได้กลับมามีประวัติ CiteScore ย้อนหลังให้ครบทุกปีที่ Scopus เก็บไว้ (ปัจจุบันคือ ~5 ปีล่าสุด) อยู่แล้วในครั้งเดียว
+2. **เลือกปี CiteScore ให้ตรงกับปีที่ผลงานนั้นตีพิมพ์จริง** (`extract_source_metric(payload, publication_year)`) — ถ้าปีนั้นมีอยู่ในประวัติที่ Scopus คืนมา ใช้ปีนั้นตรงๆ ถ้าไม่มี (เช่น ผลงานเก่ากว่าที่ Scopus เก็บ CiteScore ไว้) จะ fallback ไปใช้ปีล่าสุดที่สถานะ `Complete` แทน
+3. หา percentile สูงสุดในบรรดา subject category ที่วารสารถูกจัดอยู่ในปีนั้น (เลือกค่าที่ดีที่สุด ถ้าอยู่หลายสาขา)
+4. แปลง percentile → quartile:
    - ≥ 75 → **Q1**
    - ≥ 50 → **Q2**
    - ≥ 25 → **Q3**
    - ต่ำกว่านั้น → **Q4**
    - ไม่มีข้อมูล CiteScore → **NA**
-4. KPI "Q1 / Total Publications" = (จำนวนที่ quartile = Q1) ÷ (จำนวนผลงานทั้งหมดที่กรองอยู่ตอนนั้น)
+5. KPI "Q1 / Total Publications" = (จำนวนที่ quartile = Q1) ÷ (จำนวนผลงานทั้งหมดที่กรองอยู่ตอนนั้น)
 
 ## 3. SDG (Sustainable Development Goals)
 

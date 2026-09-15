@@ -462,7 +462,14 @@ def quartile_from_percentile(percentile):
     return "Q4"
 
 
-def extract_source_metric(payload):
+def extract_source_metric(payload, target_year=None):
+    """Picks the CiteScore info for `target_year` (the publication's own
+    cover year) when the journal's CiteScore history covers it, so a 2022
+    paper is judged against the journal's 2022 standing rather than
+    whatever the latest available year happens to be. Falls back to the
+    latest "Complete" year when the exact year isn't in the returned
+    history (e.g. publication older than Scopus's ~5-year CiteScore
+    window)."""
     if not payload:
         return None
 
@@ -477,8 +484,15 @@ def extract_source_metric(payload):
     if not year_infos:
         return None
 
-    complete_infos = [item for item in year_infos if item.get("@status") == "Complete"]
-    selected_info = complete_infos[0] if complete_infos else year_infos[0]
+    selected_info = None
+    if target_year:
+        selected_info = next(
+            (item for item in year_infos if text_value(item.get("@year")) == str(target_year)),
+            None,
+        )
+    if selected_info is None:
+        complete_infos = [item for item in year_infos if item.get("@status") == "Complete"]
+        selected_info = complete_infos[0] if complete_infos else year_infos[0]
     info_lists = list_value(selected_info.get("citeScoreInformationList"))
     cite_infos = []
     for item in info_lists:
@@ -519,7 +533,11 @@ def enrich_publications_with_metrics(api_key, publications):
         if source_key and source_key not in source_publications:
             source_publications[source_key] = publication
 
-    source_metrics = {}
+    # One Serial Title request per journal (not per publication or per year)
+    # -- the response already carries CiteScore history for every year it
+    # covers, so we cache the raw payload and slice out each publication's
+    # own year locally instead of re-requesting per year.
+    source_payloads = {}
     with ThreadPoolExecutor(max_workers=4) as executor:
         future_map = {
             executor.submit(request_serial_title, api_key, publication): source_key
@@ -528,13 +546,14 @@ def enrich_publications_with_metrics(api_key, publications):
         for future in as_completed(future_map):
             source_key = future_map[future]
             try:
-                source_metrics[source_key] = extract_source_metric(future.result())
+                source_payloads[source_key] = future.result()
             except Exception:
-                source_metrics[source_key] = None
+                source_payloads[source_key] = None
 
     for publication in publications:
         source_key = publication.get("sourceId") or publication.get("issn") or publication.get("eIssn")
-        metric = source_metrics.get(source_key)
+        payload = source_payloads.get(source_key)
+        metric = extract_source_metric(payload, publication.get("year"))
         if metric:
             publication.update(metric)
 

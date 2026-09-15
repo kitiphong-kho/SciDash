@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SciDash Research KPI Dashboard</title>
-    <link rel="stylesheet" href="./styles.css?v=20260915f" />
+    <link rel="stylesheet" href="./styles.css?v=20260915g" />
   </head>
   <body>
     <div class="app-shell">
@@ -82,12 +82,12 @@
             </select>
           </label>
           <label>
-            <span>ผู้แต่ง</span>
-            <input id="authorFilter" list="authorOptions" type="search" placeholder="ทุกคน / พิมพ์ชื่อผู้แต่ง" />
+            <span>Author</span>
+            <input id="authorFilter" list="authorOptions" type="search" placeholder="All / type author name" />
             <datalist id="authorOptions"></datalist>
           </label>
           <label>
-            <span>บทบาทผู้แต่ง</span>
+            <span>Author Role</span>
             <select id="authorRoleFilter">
               <option value="all">Authors</option>
               <option value="first_author">First author</option>
@@ -98,7 +98,7 @@
           <label>
             <span>Quartile</span>
             <select id="quartileFilter">
-              <option value="all">ทุก Quartile</option>
+              <option value="all">All Quartiles</option>
               <option value="Q1">Q1</option>
               <option value="Q2">Q2</option>
               <option value="Q3">Q3</option>
@@ -107,8 +107,8 @@
             </select>
           </label>
           <label>
-            <span>ค้นหา</span>
-            <input id="searchInput" type="search" placeholder="ชื่อผลงาน, DOI, วารสาร" />
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="keywords" />
           </label>
         </section>
 
@@ -253,6 +253,6 @@
       </main>
     </div>
 
-    <script src="./app.js?v=20260915f"></script>
+    <script src="./app.js?v=20260915g"></script>
   </body>
 </html>

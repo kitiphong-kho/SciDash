@@ -1102,7 +1102,7 @@ async function loadScopusData(forceReload) {
     elements.dataSourceTitle.textContent = `Scopus data updated: ${syncedAtText}`;
     const groupSummary = scope === "staff" && payload.staffGroups?.length ? ` กลุ่มสาขา: ${payload.staffGroups.join(", ")}` : "";
     elements.dataSourceCopy.textContent = `โหมด ${scopeLabel}: ${scoped.length} รายการ.${groupSummary}`;
-    setSyncMessage(`โหลดข้อมูลสำเร็จ (sync ล่าสุด ${syncedAtText})`);
+    setSyncMessage("โหลดข้อมูลสำเร็จ");
   } catch (error) {
     setPublications([], "empty", []);
     elements.dataSourceTitle.textContent = "No data";

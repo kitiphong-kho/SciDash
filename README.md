@@ -12,7 +12,7 @@
 cp .env.example .env
 ```
 
-จากนั้นแก้ค่า `SCOPUS_API_KEY` ใน `.env`
+จากนั้นแก้ค่า `SCOPUS_API_KEY` ใน `.env` (ถ้า Elsevier ออก InstToken มาให้ ใส่ใน `SCOPUS_INST_TOKEN` ด้วย)
 
 แนะนำให้ใช้สคริปต์ที่เตรียมไว้:
 

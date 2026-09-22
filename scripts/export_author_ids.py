@@ -27,12 +27,16 @@ def make_ssl_context():
 
 def request_author_search(api_key, query, count=10):
     params = urllib.parse.urlencode({"query": query, "count": count})
+    headers = {
+        "Accept": "application/json",
+        "X-ELS-APIKey": api_key,
+    }
+    inst_token = os.environ.get("SCOPUS_INST_TOKEN", "").strip()
+    if inst_token:
+        headers["X-ELS-Insttoken"] = inst_token
     request = urllib.request.Request(
         f"{AUTHOR_SEARCH_ENDPOINT}?{params}",
-        headers={
-            "Accept": "application/json",
-            "X-ELS-APIKey": api_key,
-        },
+        headers=headers,
     )
     context = make_ssl_context()
 

@@ -22,7 +22,10 @@ cp .env.example .env
 
 ```text
 SCOPUS_API_KEY=your_key_here
+SCOPUS_INST_TOKEN=your_insttoken_here
 ```
+
+`SCOPUS_INST_TOKEN` ใส่เฉพาะถ้า Elsevier ออก InstToken มาให้ (เช่นกรณี API key อย่างเดียวโดน จำกัดผลลัพธ์/access denied) ถ้าไม่มีก็เว้นว่างไว้ได้
 
 เริ่ม server:
 

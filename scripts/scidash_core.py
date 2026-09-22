@@ -343,6 +343,17 @@ def build_staff_query(staff):
     )
 
 
+def scopus_headers(api_key):
+    headers = {
+        "Accept": "application/json",
+        "X-ELS-APIKey": api_key,
+    }
+    inst_token = os.environ.get("SCOPUS_INST_TOKEN", "").strip()
+    if inst_token:
+        headers["X-ELS-Insttoken"] = inst_token
+    return headers
+
+
 def request_scopus(api_key, query, count, start, date):
     scopus_params = {
         "query": query,
@@ -360,13 +371,7 @@ def request_scopus(api_key, query, count, start, date):
         scopus_params["date"] = date
 
     url = f"{SCOPUS_ENDPOINT}?{urllib.parse.urlencode(scopus_params)}"
-    request = urllib.request.Request(
-        url,
-        headers={
-            "Accept": "application/json",
-            "X-ELS-APIKey": api_key,
-        },
-    )
+    request = urllib.request.Request(url, headers=scopus_headers(api_key))
 
     cert_file = os.environ.get("SSL_CERT_FILE") or "/etc/ssl/cert.pem"
     context = ssl.create_default_context(cafile=cert_file if Path(cert_file).exists() else None)
@@ -387,13 +392,7 @@ def request_scopus(api_key, query, count, start, date):
 
 def request_serial_title_once(api_key, params):
     url = f"{SERIAL_TITLE_ENDPOINT}?{urllib.parse.urlencode(params)}"
-    request = urllib.request.Request(
-        url,
-        headers={
-            "Accept": "application/json",
-            "X-ELS-APIKey": api_key,
-        },
-    )
+    request = urllib.request.Request(url, headers=scopus_headers(api_key))
     cert_file = os.environ.get("SSL_CERT_FILE") or "/etc/ssl/cert.pem"
     context = ssl.create_default_context(cafile=cert_file if Path(cert_file).exists() else None)
 
@@ -560,13 +559,7 @@ def enrich_publications_with_metrics(api_key, publications):
 
 def request_abstract_retrieval(api_key, eid):
     url = f"{ABSTRACT_RETRIEVAL_ENDPOINT}/{urllib.parse.quote(eid)}"
-    request = urllib.request.Request(
-        url,
-        headers={
-            "Accept": "application/json",
-            "X-ELS-APIKey": api_key,
-        },
-    )
+    request = urllib.request.Request(url, headers=scopus_headers(api_key))
     cert_file = os.environ.get("SSL_CERT_FILE") or "/etc/ssl/cert.pem"
     context = ssl.create_default_context(cafile=cert_file if Path(cert_file).exists() else None)
 

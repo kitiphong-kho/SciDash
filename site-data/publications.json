@@ -413,11 +413,11 @@
     "Material Science and Engineering": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-material-and-enginee.html",
     "Computational Science": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-computational-science.html"
   },
-  "lastSyncedAt": "2026-09-15T09:26:42.445558+00:00",
+  "lastSyncedAt": "2026-09-22T06:42:14.251661+00:00",
   "lastFullSyncAt": "2026-09-15T09:26:42.445558+00:00",
-  "lastSyncMode": "full",
-  "lastSyncDateRange": "2022-2026",
-  "totalPublications": 940,
+  "lastSyncMode": "incremental",
+  "lastSyncDateRange": "2025-2026",
+  "totalPublications": 941,
   "publications": [
     {
       "id": "2-s2.0-105033874976",
@@ -544,7 +544,7 @@
       "quartileYear": "2026",
       "citeScore": "7.0",
       "citeScorePercentile": "88",
-      "citations": 1,
+      "citations": 2,
       "authors": [
         "Khruengsai S.",
         "Sripahco T.",
@@ -637,14 +637,14 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Nattaya Tawichai": "corresponding_author",
         "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Asst. Prof. Dr. Nattaya Tawichai": "corresponding_author",
         "Asst. Prof. Dr. Sitthi Duangphet": "co_author",
         "Asst. Prof. Dr. Uraiwan Intatha": "co_author"
       },
       "matchedStaffGroups": {
-        "Asst. Prof. Dr. Nattaya Tawichai": "MSE",
         "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE",
+        "Asst. Prof. Dr. Nattaya Tawichai": "MSE",
         "Asst. Prof. Dr. Sitthi Duangphet": "MSE",
         "Asst. Prof. Dr. Uraiwan Intatha": "MSE"
       },
@@ -811,12 +811,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -1589,12 +1589,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -2180,13 +2180,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -2309,7 +2309,7 @@
         "Hamamoto H."
       ],
       "matchedStaff": [],
-      "affiliation": "The University of Queensland; Monash University; Tohoku University; The University of Sheffield; University of Toronto Faculty of Medicine; University of Auckland; Universidade Federal de Minas Gerais; Curtin University; Mahidol University; Chulalongkorn University; Academy of Scientific and Innovative Research (AcSIR); American University of Beirut; Jichi Medical University; Graduate School of Medicine; Thammasat University; UK Centre for Ecology & Hydrology; National Chemical Laboratory India; Juntendo University School of Medicine; Faculty of Science, Mahidol University; Yamagata University Faculty of Medicine; The Kids Research Institute Australia; Medizinische Fakultät; Acıbadem Mehmet Ali Aydınlar Üniversitesi; School of Public Health; Faculty of Medicine, Chulalongkorn University; King Chulalongkorn Memorial Hospital; UWA Medical School; Mae Fah Luang University; Ministry of Higher Education, Science, Research and Innovation; Perth Children's Hospital; Faculty of Medicine, Thammasat University; University of Malaya Medical Centre; University of the Philippines College of Medicine; Armed Forces Research Institute of Medical Sciences, Thailand; Chulabhorn Royal Academy; Wayamba University of Sri Lanka; Yamagata Prefectural Central Hospital; Kitasato University Graduate School of Medical Science; Royal University of Phnom Penh; The Tokyo Foundation for Policy Research; Hospital of Chongqing University; Yamagata Prefectural University of Health Sciences; Adamawa State University, Mubi; Mahidol University, Center of Excellence for Vectors and Vector-Borne Diseases; St. Carolus Hospital; University of Goroka; Partner Site Bonn-Cologne; Centre of Excellence in Mathematics; Fuyang Women and Children's Hospital; National Institute of Health; Bioberrys Healthcare and Research Centre; Vanuatu National Museum; Mahosot Hospital; So Pyay Clinic",
+      "affiliation": "The University of Queensland; Monash University; Tohoku University; The University of Sheffield; University of Toronto Faculty of Medicine; University of Auckland; Universidade Federal de Minas Gerais; Curtin University; Mahidol University; Chulalongkorn University; Academy of Scientific and Innovative Research (AcSIR); American University of Beirut; Jichi Medical University; Graduate School of Medicine; Thammasat University; UK Centre for Ecology & Hydrology; National Chemical Laboratory India; Juntendo University School of Medicine; Faculty of Science, Mahidol University; Yamagata University Faculty of Medicine; The Kids Research Institute Australia; Medizinische Fakultät; Acıbadem Mehmet Ali Aydınlar Üniversitesi; School of Public Health; Faculty of Medicine, Chulalongkorn University; UWA Medical School; King Chulalongkorn Memorial Hospital; Mae Fah Luang University; Ministry of Higher Education, Science, Research and Innovation; Perth Children's Hospital; Faculty of Medicine, Thammasat University; University of Malaya Medical Centre; University of the Philippines College of Medicine; Armed Forces Research Institute of Medical Sciences, Thailand; Chulabhorn Royal Academy; Wayamba University of Sri Lanka; Yamagata Prefectural Central Hospital; Kitasato University Graduate School of Medical Science; Royal University of Phnom Penh; The Tokyo Foundation for Policy Research; Hospital of Chongqing University; Yamagata Prefectural University of Health Sciences; Adamawa State University, Mubi; Mahidol University, Center of Excellence for Vectors and Vector-Borne Diseases; St. Carolus Hospital; University of Goroka; Centre of Excellence in Mathematics; Partner Site Bonn-Cologne; Fuyang Women and Children's Hospital; National Institute of Health; Bioberrys Healthcare and Research Centre; National University of Vanuatu; Mahosot Hospital; So Pyay Clinic",
       "affiliationCountries": [
         "Australia",
         "Brazil",
@@ -2399,12 +2399,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -2667,12 +2667,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Nattaya Tawichai": "co_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "corresponding_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "corresponding_author",
+        "Asst. Prof. Dr. Nattaya Tawichai": "co_author"
       },
       "matchedStaffGroups": {
-        "Asst. Prof. Dr. Nattaya Tawichai": "MSE",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE",
+        "Asst. Prof. Dr. Nattaya Tawichai": "MSE"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -3104,12 +3104,12 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -3170,13 +3170,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -3331,12 +3331,12 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -3354,7 +3354,7 @@
       "quartileYear": "2026",
       "citeScore": "13.4",
       "citeScorePercentile": "95",
-      "citations": 2,
+      "citations": 3,
       "authors": [
         "Pankongadisak P.",
         "Kiti K.",
@@ -4485,13 +4485,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -5345,16 +5345,16 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
         "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
         "Ajarn Dr. Kittirat Saharat": "co_author"
       },
       "matchedStaffGroups": {
-        "Asst. Prof. Dr. Natsaran Saichana": "Bio",
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
         "Asst. Prof. Dr. Plaipol Dedvisitsakul": "Bio",
+        "Asst. Prof. Dr. Natsaran Saichana": "Bio",
         "Asst. Prof. Dr. Sunita Chamyuang": "Bio",
         "Ajarn Dr. Kittirat Saharat": "Bio"
       },
@@ -5686,13 +5686,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -6080,13 +6080,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -6688,13 +6688,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Natsaran Saichana": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -7395,12 +7395,12 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -7672,12 +7672,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -7735,14 +7735,14 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
         "Asst. Prof. Dr. Ruvishika Jayawardena": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -7797,12 +7797,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -8145,12 +8145,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -8365,13 +8365,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -8779,12 +8779,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -8954,16 +8954,16 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Orawan Suwantong": "co_author",
-        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
         "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author",
         "Ajarn Dr. Kittirat Saharat": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Orawan Suwantong": "APC",
-        "Asst. Prof. Dr. Natsaran Saichana": "Bio",
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
         "Asst. Prof. Dr. Plaipol Dedvisitsakul": "Bio",
+        "Asst. Prof. Dr. Natsaran Saichana": "Bio",
         "Ajarn Dr. Kittirat Saharat": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
@@ -9865,7 +9865,7 @@
       "quartileYear": "2025",
       "citeScore": "1.9",
       "citeScorePercentile": "40",
-      "citations": 0,
+      "citations": 1,
       "authors": [
         "Khyaju S.",
         "Bera I.",
@@ -10066,13 +10066,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Darunee Wattanasiriwech": "co_author",
-        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "corresponding_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Darunee Wattanasiriwech": "MSE",
-        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "MSE",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE",
+        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "MSE"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -10164,12 +10164,12 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -10234,12 +10234,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -10331,7 +10331,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 22,
+      "citations": 23,
       "authors": [
         "Dong W.",
         "Hyde K.D.",
@@ -10599,12 +10599,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -10728,7 +10728,7 @@
       "quartileYear": "2025",
       "citeScore": "7.8",
       "citeScorePercentile": "89",
-      "citations": 1,
+      "citations": 2,
       "authors": [
         "Saninjuk K.",
         "Dulyayangkul P.",
@@ -11167,7 +11167,7 @@
       "quartileYear": "2025",
       "citeScore": "1.9",
       "citeScorePercentile": "40",
-      "citations": 3,
+      "citations": 2,
       "authors": [
         "Li Y.",
         "He S.C.",
@@ -11404,13 +11404,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -11887,7 +11887,7 @@
         "Adjunct Prof. Dr. Kevin Hyde",
         "Ajarn Dr. Naritsada Thongklang"
       ],
-      "affiliation": "Yunnan Agricultural University; Dali University; Mae Fah Luang University; Yunnan Agricultural Academy; Chuxiong Forestry and Grassland Ecological a Construction Engineering Technology Center",
+      "affiliation": "Yunnan Agricultural University; Dali University; Mae Fah Luang University; Yunnan Agricultural Academy; Chuxiong Forestry and Grassland Ecological Construction Engineering Technology Center",
       "affiliationCountries": [
         "China",
         "Thailand"
@@ -12051,7 +12051,7 @@
       "quartileYear": "2025",
       "citeScore": "15.1",
       "citeScorePercentile": "96",
-      "citations": 10,
+      "citations": 11,
       "authors": [
         "Khruengsai S.",
         "Phalangrit K.a.",
@@ -12336,12 +12336,12 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -12544,7 +12544,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 28,
+      "citations": 30,
       "authors": [
         "Cao B.",
         "Phurbu D.",
@@ -12774,7 +12774,7 @@
       "quartileYear": "2025",
       "citeScore": "2.8",
       "citeScorePercentile": "56",
-      "citations": 2,
+      "citations": 3,
       "authors": [
         "Jaidee W.",
         "Rujanapun N.",
@@ -12829,7 +12829,7 @@
       "quartileYear": "2025",
       "citeScore": "8.7",
       "citeScorePercentile": "93",
-      "citations": 5,
+      "citations": 7,
       "authors": [
         "Absalan S.",
         "Armand A.",
@@ -13430,7 +13430,7 @@
       "quartileYear": "2025",
       "citeScore": "2.7",
       "citeScorePercentile": "56",
-      "citations": 3,
+      "citations": 2,
       "authors": [
         "Sagayap C.",
         "Chuysinuan P.",
@@ -13551,7 +13551,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 89,
+      "citations": 91,
       "authors": [
         "Liao C.",
         "Doilom M.",
@@ -14090,7 +14090,7 @@
       "quartileYear": "2025",
       "citeScore": "8.0",
       "citeScorePercentile": "82",
-      "citations": 12,
+      "citations": 11,
       "authors": [
         "Xu B.",
         "Wang Y.",
@@ -15624,7 +15624,7 @@
       "quartileYear": "2025",
       "citeScore": "10.0",
       "citeScorePercentile": "92",
-      "citations": 7,
+      "citations": 6,
       "authors": [
         "Su H.",
         "Hyde K.D.",
@@ -16081,7 +16081,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 1,
+      "citations": 2,
       "authors": [
         "Zheng W.",
         "He L.",
@@ -16324,7 +16324,7 @@
       "quartileYear": "2025",
       "citeScore": "8.7",
       "citeScorePercentile": "93",
-      "citations": 5,
+      "citations": 6,
       "authors": [
         "Han X.X.",
         "Phurbu D.",
@@ -16430,13 +16430,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
         "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -17087,12 +17087,12 @@
       "sdgs": [],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -17446,7 +17446,7 @@
       "quartileYear": "2025",
       "citeScore": "6.4",
       "citeScorePercentile": "78",
-      "citations": 3,
+      "citations": 4,
       "authors": [
         "Phonchai A.",
         "Pon-in S.",
@@ -17495,7 +17495,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 4,
+      "citations": 3,
       "authors": [
         "Liu X.",
         "Chen Q.",
@@ -17606,7 +17606,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 7,
+      "citations": 6,
       "authors": [
         "Gajanayake A.J.",
         "Jayawardena R.S.",
@@ -17688,7 +17688,7 @@
       "matchedStaff": [
         "Adjunct Prof. Dr. Kevin Hyde"
       ],
-      "affiliation": "Guizhou University; Mae Fah Luang University; Guizhou Institute of Technology; Guizhou Education University; Guizhou Academy of Agricultural Sciences; Guiyang Healthcare Vocational University",
+      "affiliation": "Guizhou University; Mae Fah Luang University; Guizhou Institute of Technology; Guizhou Education University; Guiyang Healthcare Vocational University; Guizhou Academy of Agricultural Sciences",
       "affiliationCountries": [
         "China",
         "Thailand"
@@ -17881,12 +17881,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "corresponding_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -18328,12 +18328,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author"
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -18484,7 +18484,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 6,
+      "citations": 7,
       "authors": [
         "Xie S.W.",
         "Wei D.P.",
@@ -18839,7 +18839,7 @@
       "quartileYear": "2025",
       "citeScore": "4.5",
       "citeScorePercentile": "53",
-      "citations": 11,
+      "citations": 14,
       "authors": [
         "Premwichit P.",
         "Siritanon T.",
@@ -19513,7 +19513,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 38,
+      "citations": 39,
       "authors": [
         "Hongsanan S.",
         "Khuna S.",
@@ -19626,12 +19626,12 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author"
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "co_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
       },
       "matchedStaffGroups": {
-        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio",
-        "Asst. Prof. Dr. Ruvishika Jayawardena": "Bio"
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -19727,7 +19727,7 @@
         "Adjunct Prof. Dr. Kevin Hyde",
         "Ajarn Dr. Naritsada Thongklang"
       ],
-      "affiliation": "Ministry of Education of the People's Republic of China; University of Chinese Academy of Sciences; University of Electronic Science and Technology of China; King Saud University; Shenzhen University; College of Sciences; Chiang Mai University; Sichuan Agricultural University; Shandong Normal University; China Three Gorges University; Chinese Academy of Forestry; Sultan Qaboos University; Capital Normal University; Jilin Agricultural University; Helmholtz Centre for Infection Research (HZI); Kunming Institute of Botany; Institute of Microbiology Chinese Academy of Sciences; Southwest Forestry University; Beijing Academy of Agriculture and Forestry Sciences; Zhongkai University of Agriculture and Engineering; Dali University; Mae Fah Luang University; Guizhou Institute of Technology; Qujing Normal University; Puer University; Ministry of Higher Education Sultanate of Oman; University of Al Dhaid; Forest Ecology and Conservation in the Upper Reaches of the Yangtze River Key Laboratory of Sichuan Province; Sichuan Mt. Emei Forest Ecosystem National Observation and Research Station",
+      "affiliation": "Ministry of Education of the People's Republic of China; University of Chinese Academy of Sciences; University of Electronic Science and Technology of China; King Saud University; Shenzhen University; College of Sciences; Chiang Mai University; Sichuan Agricultural University; Shandong Normal University; China Three Gorges University; Chinese Academy of Forestry; Sultan Qaboos University; Capital Normal University; Jilin Agricultural University; Helmholtz Centre for Infection Research (HZI); Kunming Institute of Botany; Institute of Microbiology Chinese Academy of Sciences; Southwest Forestry University; Beijing Academy of Agriculture and Forestry Sciences; Zhongkai University of Agriculture and Engineering; Dali University; Mae Fah Luang University; Guizhou Institute of Technology; Qujing Normal University; Puer University; University of Al Dhaid; Ministry of Higher Education Sultanate of Oman; Forest Ecology and Conservation in the Upper Reaches of the Yangtze River Key Laboratory of Sichuan Province; Sichuan Mt. Emei Forest Ecosystem National Observation and Research Station",
       "affiliationCountries": [
         "China",
         "Germany",
@@ -19884,7 +19884,7 @@
         "Adjunct Prof. Dr. Kevin Hyde",
         "Ajarn Dr. Naritsada Thongklang"
       ],
-      "affiliation": "University of Electronic Science and Technology of China; King Saud University; Universität Wien; Universidade Estadual Paulista \"Júlio de Mesquita Filho\"; Universidade Federal do Rio de Janeiro; City University of Hong Kong; Universität Hamburg; Universidade Federal de Minas Gerais; Carleton University; Universidade Federal de Santa Catarina; College of Sciences; Universidade Federal de Pernambuco; Guizhou University; Chiang Mai University; Universidade Federal de Vicosa; Universidad de Alcalá; Universidade Federal do Rio Grande do Norte; Universitat Rovira i Virgili; Universität Greifswald; University of the Punjab; Uniwersytet Śląski w Katowicach; Universität Kassel; Uniwersytet Gdański; Universidade Federal de Lavras; University of Madras; Heilongjiang University; National Taiwan Ocean University; Universidade Federal Rural de Pernambuco; Universidade Federal de Mato Grosso do Sul; Université Fédérale de Sergipe; Università degli Studi della Tuscia Viterbo; Kunming Institute of Botany; Universidade Federal do Piauí; Southwest Forestry University; Guizhou Normal University; Royal Botanic Gardens, Kew; Beijing Academy of Agriculture and Forestry Sciences; Zhongkai University of Agriculture and Engineering; Universidade Estadual de Feira de Santana; Thailand National Center for Genetic Engineering and Biotechnology; Dali University; Mae Fah Luang University; Institute of Biodiversity and Ecosystem Research at the Bulgarian Academy of Sciences; Luonnontieteellinen Keskusmuseo; Guizhou Institute of Technology; Qujing Normal University; Iranian Research Organization for Science and Technology; Birbal Sahni Institute of Palaeobotany; Agharkar Research Institute; National Institute of Fundamental Studies, Sri Lanka; Francisk Skorina Gomel State University; Władysław Szafer Institute of Botany of the Polish Academy of Sciences; Embrapa Milho e Sorgo; University of the Philippines Visayas; Uva Wellassa University; Universidade Federal do Agreste de Pernambuco; Gomel State Medical University; Royal Botanic Gardens; Italian National Antarctic Museum (MNA); IUCN SSC Rusts and Smuts Specialist Group",
+      "affiliation": "University of Electronic Science and Technology of China; King Saud University; Universität Wien; Universidade Estadual Paulista \"Júlio de Mesquita Filho\"; Universidade Federal do Rio de Janeiro; City University of Hong Kong; Universität Hamburg; Universidade Federal de Minas Gerais; Carleton University; Universidade Federal de Santa Catarina; College of Sciences; Universidade Federal de Pernambuco; Guizhou University; Chiang Mai University; Universidade Federal de Vicosa; Universidad de Alcalá; Universidade Federal do Rio Grande do Norte; Universitat Rovira i Virgili; Universität Greifswald; University of the Punjab; Uniwersytet Śląski w Katowicach; Universität Kassel; Uniwersytet Gdański; Universidade Federal de Lavras; University of Madras; Heilongjiang University; National Taiwan Ocean University; Universidade Federal Rural de Pernambuco; Universidade Federal de Mato Grosso do Sul; Université Fédérale de Sergipe; Università degli Studi della Tuscia Viterbo; Kunming Institute of Botany; Universidade Federal do Piauí; Southwest Forestry University; Guizhou Normal University; Royal Botanic Gardens, Kew; Beijing Academy of Agriculture and Forestry Sciences; Zhongkai University of Agriculture and Engineering; Universidade Estadual de Feira de Santana; Thailand National Center for Genetic Engineering and Biotechnology; Dali University; Mae Fah Luang University; Institute of Biodiversity and Ecosystem Research at the Bulgarian Academy of Sciences; Luonnontieteellinen Keskusmuseo; Guizhou Institute of Technology; Qujing Normal University; Iranian Research Organization for Science and Technology; Birbal Sahni Institute of Palaeobotany; Agharkar Research Institute; National Institute of Fundamental Studies, Sri Lanka; Francisk Skorina Gomel State University; Władysław Szafer Institute of Botany of the Polish Academy of Sciences; Embrapa Milho e Sorgo; University of the Philippines Visayas; Universidade Federal do Agreste de Pernambuco; Uva Wellassa University; Gomel State Medical University; Royal Botanic Gardens; Italian National Antarctic Museum (MNA); IUCN SSC Rusts and Smuts Specialist Group",
       "affiliationCountries": [
         "Austria",
         "Belarus",
@@ -54507,6 +54507,52 @@
         "Adjunct Prof. Dr. Kevin Hyde": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105050199332",
+      "year": 2026,
+      "title": "Enhanced energy-storage performance and electric-field-induced strain in Ta-doped (Bi0.465Na0.465Ba0.07)TiO3 lead-free ceramics",
+      "doi": "10.55713/jmmm.v36i4.2685",
+      "journal": "Journal of Metals Materials and Minerals",
+      "sourceId": "21100847475",
+      "issn": "08576149",
+      "eIssn": "26300508",
+      "quartile": "Q2",
+      "quartileYear": "2026",
+      "citeScore": "3.7",
+      "citeScorePercentile": "64",
+      "citations": 0,
+      "authors": [
+        "Premwichit P.",
+        "Lunthaiyo T.",
+        "Kosasang O.",
+        "Prasertpalichat S."
+      ],
+      "matchedStaff": [],
+      "affiliation": "Naresuan University; Mae Fah Luang University",
+      "affiliationCountries": [
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Article",
+      "sdgs": [
+        {
+          "code": "SDG 7",
+          "label": "Affordable and Clean Energy",
+          "matchedTerms": [
+            "energy"
+          ]
+        }
+      ],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {},
+      "matchedStaffGroups": {},
+      "academicStaffMatchMethod": "author indexed-name last name plus first-initial match",
       "quartileSource": "Scopus CiteScore"
     }
   ]

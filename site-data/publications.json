@@ -413,7 +413,7 @@
     "Material Science and Engineering": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-material-and-enginee.html",
     "Computational Science": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-computational-science.html"
   },
-  "lastSyncedAt": "2026-09-22T06:42:14.251661+00:00",
+  "lastSyncedAt": "2026-09-22T07:07:15.334600+00:00",
   "lastFullSyncAt": "2026-09-15T09:26:42.445558+00:00",
   "lastSyncMode": "incremental",
   "lastSyncDateRange": "2025-2026",
@@ -5345,16 +5345,16 @@
       ],
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
-        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
+        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
         "Asst. Prof. Dr. Sunita Chamyuang": "co_author",
         "Ajarn Dr. Kittirat Saharat": "co_author"
       },
       "matchedStaffGroups": {
-        "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "Bio",
         "Asst. Prof. Dr. Natsaran Saichana": "Bio",
+        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "Bio",
+        "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
         "Asst. Prof. Dr. Sunita Chamyuang": "Bio",
         "Ajarn Dr. Kittirat Saharat": "Bio"
       },
@@ -8954,16 +8954,16 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Orawan Suwantong": "co_author",
-        "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
-        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
         "Asst. Prof. Dr. Natsaran Saichana": "co_author",
+        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "co_author",
+        "Asst. Prof. Dr. Pattana Kakumyan": "corresponding_author",
         "Ajarn Dr. Kittirat Saharat": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Orawan Suwantong": "APC",
-        "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
-        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "Bio",
         "Asst. Prof. Dr. Natsaran Saichana": "Bio",
+        "Asst. Prof. Dr. Plaipol Dedvisitsakul": "Bio",
+        "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
         "Ajarn Dr. Kittirat Saharat": "Bio"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
@@ -10066,13 +10066,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Darunee Wattanasiriwech": "co_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
-        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "corresponding_author"
+        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "corresponding_author",
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Darunee Wattanasiriwech": "MSE",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE",
-        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "MSE"
+        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "MSE",
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"

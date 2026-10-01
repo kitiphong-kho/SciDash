@@ -413,11 +413,11 @@
     "Material Science and Engineering": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-material-and-enginee.html",
     "Computational Science": "https://science.mfu.ac.th/en/sci-staff/sci-academic-staff/sci-staff-computational-science.html"
   },
-  "lastSyncedAt": "2026-09-23T17:03:53.004395+00:00",
+  "lastSyncedAt": "2026-10-01T03:05:19.452904+00:00",
   "lastFullSyncAt": "2026-09-15T09:26:42.445558+00:00",
   "lastSyncMode": "incremental",
   "lastSyncDateRange": "2025-2026",
-  "totalPublications": 941,
+  "totalPublications": 947,
   "publications": [
     {
       "id": "2-s2.0-105033874976",
@@ -2309,7 +2309,7 @@
         "Hamamoto H."
       ],
       "matchedStaff": [],
-      "affiliation": "The University of Queensland; Monash University; Tohoku University; The University of Sheffield; University of Toronto Faculty of Medicine; University of Auckland; Universidade Federal de Minas Gerais; Curtin University; Mahidol University; Chulalongkorn University; Academy of Scientific and Innovative Research (AcSIR); American University of Beirut; Jichi Medical University; Graduate School of Medicine; Thammasat University; UK Centre for Ecology & Hydrology; National Chemical Laboratory India; Juntendo University School of Medicine; Faculty of Science, Mahidol University; Yamagata University Faculty of Medicine; The Kids Research Institute Australia; Medizinische Fakultät; Acıbadem Mehmet Ali Aydınlar Üniversitesi; School of Public Health; Faculty of Medicine, Chulalongkorn University; King Chulalongkorn Memorial Hospital; UWA Medical School; Mae Fah Luang University; Ministry of Higher Education, Science, Research and Innovation; Perth Children's Hospital; Faculty of Medicine, Thammasat University; University of Malaya Medical Centre; University of the Philippines College of Medicine; Armed Forces Research Institute of Medical Sciences, Thailand; Chulabhorn Royal Academy; Wayamba University of Sri Lanka; Yamagata Prefectural Central Hospital; Kitasato University Graduate School of Medical Science; Royal University of Phnom Penh; The Tokyo Foundation for Policy Research; Hospital of Chongqing University; Yamagata Prefectural University of Health Sciences; Adamawa State University, Mubi; Mahidol University, Center of Excellence for Vectors and Vector-Borne Diseases; St. Carolus Hospital; University of Goroka; Centre of Excellence in Mathematics; Partner Site Bonn-Cologne; Fuyang Women and Children's Hospital; National Institute of Health; Bioberrys Healthcare and Research Centre; National University of Vanuatu; Mahosot Hospital; So Pyay Clinic",
+      "affiliation": "The University of Queensland; Monash University; Tohoku University; The University of Sheffield; University of Toronto Faculty of Medicine; University of Auckland; Universidade Federal de Minas Gerais; Curtin University; Mahidol University; Chulalongkorn University; Academy of Scientific and Innovative Research (AcSIR); American University of Beirut; Jichi Medical University; Graduate School of Medicine; Thammasat University; UK Centre for Ecology & Hydrology; National Chemical Laboratory India; Juntendo University School of Medicine; Faculty of Science, Mahidol University; The Kids Research Institute Australia; Yamagata University Faculty of Medicine; Medizinische Fakultät; Acıbadem Mehmet Ali Aydınlar Üniversitesi; School of Public Health; Faculty of Medicine, Chulalongkorn University; King Chulalongkorn Memorial Hospital; UWA Medical School; Mae Fah Luang University; Ministry of Higher Education, Science, Research and Innovation; Perth Children's Hospital; Faculty of Medicine, Thammasat University; University of Malaya Medical Centre; University of the Philippines College of Medicine; Armed Forces Research Institute of Medical Sciences, Thailand; Chulabhorn Royal Academy; Wayamba University of Sri Lanka; Yamagata Prefectural Central Hospital; Kitasato University Graduate School of Medical Science; Royal University of Phnom Penh; The Tokyo Foundation for Policy Research; Hospital of Chongqing University; Yamagata Prefectural University of Health Sciences; Adamawa State University, Mubi; Mahidol University, Center of Excellence for Vectors and Vector-Borne Diseases; St. Carolus Hospital; University of Goroka; Partner Site Bonn-Cologne; Centre of Excellence in Mathematics; Fuyang Women and Children's Hospital; National Institute of Health; Bioberrys Healthcare and Research Centre; National University of Vanuatu; Mahosot Hospital; So Pyay Clinic",
       "affiliationCountries": [
         "Australia",
         "Brazil",
@@ -3893,7 +3893,7 @@
       "quartileYear": "2026",
       "citeScore": "4.2",
       "citeScorePercentile": "78",
-      "citations": 0,
+      "citations": 1,
       "authors": [
         "Zhang L.J.",
         "Ma X.Y.",
@@ -4559,7 +4559,7 @@
       "quartileYear": "2026",
       "citeScore": "11.6",
       "citeScorePercentile": "94",
-      "citations": 2,
+      "citations": 3,
       "authors": [
         "Buajan B.",
         "Nisoa M.",
@@ -6544,7 +6544,7 @@
       "quartileYear": "2026",
       "citeScore": "4.2",
       "citeScorePercentile": "80",
-      "citations": 0,
+      "citations": 1,
       "authors": [
         "Shen H.W.",
         "Bao D.F.",
@@ -6594,7 +6594,7 @@
       "quartileYear": "2026",
       "citeScore": "1.5",
       "citeScorePercentile": "55",
-      "citations": 3,
+      "citations": 5,
       "authors": [
         "Zhao H.J.",
         "Hyde K.D.",
@@ -6645,7 +6645,7 @@
       "quartileYear": "2026",
       "citeScore": "1.5",
       "citeScorePercentile": "55",
-      "citations": 0,
+      "citations": 1,
       "authors": [
         "Thakshila S.A.D.",
         "Bhunjun C.S.",
@@ -7472,7 +7472,7 @@
       "quartileYear": "2025",
       "citeScore": "1.9",
       "citeScorePercentile": "40",
-      "citations": 0,
+      "citations": 1,
       "authors": [
         "Zhao Y.W.",
         "He S.C.",
@@ -7526,7 +7526,7 @@
       "quartileYear": "2025",
       "citeScore": "3.2",
       "citeScorePercentile": "63",
-      "citations": 1,
+      "citations": 2,
       "authors": [
         "Yang Y.Y.",
         "Zhao Q.",
@@ -8257,7 +8257,7 @@
       "quartileYear": "2025",
       "citeScore": "6.4",
       "citeScorePercentile": "87",
-      "citations": 1,
+      "citations": 2,
       "authors": [
         "Banerjee S.",
         "Jaidee W.",
@@ -10066,13 +10066,13 @@
       "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
       "matchedStaffRoles": {
         "Assoc. Prof. Dr. Darunee Wattanasiriwech": "co_author",
-        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "corresponding_author",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "co_author",
+        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "corresponding_author"
       },
       "matchedStaffGroups": {
         "Assoc. Prof. Dr. Darunee Wattanasiriwech": "MSE",
-        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "MSE",
-        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE"
+        "Assoc. Prof. Dr. Nattakan Soykeabkaew": "MSE",
+        "Assoc. Prof. Dr. Suthee Wattanasiriwech": "MSE"
       },
       "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
@@ -10257,7 +10257,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 13,
+      "citations": 15,
       "authors": [
         "Shen H.W.",
         "Bao D.F.",
@@ -10331,7 +10331,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 23,
+      "citations": 24,
       "authors": [
         "Dong W.",
         "Hyde K.D.",
@@ -10835,7 +10835,7 @@
       "quartileYear": "2025",
       "citeScore": "6.4",
       "citeScorePercentile": "78",
-      "citations": 9,
+      "citations": 12,
       "authors": [
         "Nisoa M.",
         "Kaewpradit S.",
@@ -11167,7 +11167,7 @@
       "quartileYear": "2025",
       "citeScore": "1.9",
       "citeScorePercentile": "40",
-      "citations": 2,
+      "citations": 3,
       "authors": [
         "Li Y.",
         "He S.C.",
@@ -12544,7 +12544,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 30,
+      "citations": 31,
       "authors": [
         "Cao B.",
         "Phurbu D.",
@@ -12961,7 +12961,7 @@
       "quartileYear": "2025",
       "citeScore": "5.1",
       "citeScorePercentile": "81",
-      "citations": 1,
+      "citations": 2,
       "authors": [
         "Gajanayake A.J.",
         "Jayawardena R.S.",
@@ -13367,7 +13367,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 47,
+      "citations": 51,
       "authors": [
         "Sun Y.R.",
         "Hyde K.D.",
@@ -13483,7 +13483,7 @@
       "quartileYear": "2025",
       "citeScore": "7.7",
       "citeScorePercentile": "91",
-      "citations": 14,
+      "citations": 16,
       "authors": [
         "Du T.Y.",
         "Tibpromma S.",
@@ -13551,7 +13551,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 92,
+      "citations": 96,
       "authors": [
         "Liao C.",
         "Doilom M.",
@@ -14090,7 +14090,7 @@
       "quartileYear": "2025",
       "citeScore": "8.0",
       "citeScorePercentile": "82",
-      "citations": 11,
+      "citations": 12,
       "authors": [
         "Xu B.",
         "Wang Y.",
@@ -14218,7 +14218,7 @@
       "quartileYear": "2025",
       "citeScore": "11.4",
       "citeScorePercentile": "93",
-      "citations": 10,
+      "citations": 11,
       "authors": [
         "Hau E.H.",
         "Chew L.Y.",
@@ -14331,7 +14331,7 @@
       "quartileYear": "2025",
       "citeScore": "1.9",
       "citeScorePercentile": "40",
-      "citations": 5,
+      "citations": 6,
       "authors": [
         "Luo L.",
         "Chethana K.W.T.",
@@ -14501,7 +14501,7 @@
       "quartileYear": "2025",
       "citeScore": "1.9",
       "citeScorePercentile": "40",
-      "citations": 3,
+      "citations": 4,
       "authors": [
         "Zhao H.",
         "Mapook A.",
@@ -15165,7 +15165,7 @@
       "quartileYear": "2024",
       "citeScore": "2.4",
       "citeScorePercentile": "51",
-      "citations": 2,
+      "citations": 3,
       "authors": [
         "Asghari R.",
         "Phukhamsakda C.",
@@ -15344,7 +15344,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 2,
+      "citations": 3,
       "authors": [
         "Asghari R.",
         "Phukhamsakda C.",
@@ -15519,7 +15519,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 0,
+      "citations": 1,
       "authors": [
         "Yuan T.J.",
         "Luo H.M.",
@@ -15624,7 +15624,7 @@
       "quartileYear": "2025",
       "citeScore": "10.0",
       "citeScorePercentile": "92",
-      "citations": 6,
+      "citations": 7,
       "authors": [
         "Su H.",
         "Hyde K.D.",
@@ -15731,7 +15731,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 4,
+      "citations": 5,
       "authors": [
         "Zhang S.",
         "Li J.",
@@ -16140,7 +16140,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 8,
+      "citations": 9,
       "authors": [
         "Yang Y.",
         "Xiao Y.P.",
@@ -16800,7 +16800,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 10,
+      "citations": 11,
       "authors": [
         "Peng T.",
         "Lu Y.Z.",
@@ -16895,7 +16895,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 12,
+      "citations": 13,
       "authors": [
         "Xiao X.J.",
         "Liu N.G.",
@@ -17110,7 +17110,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 4,
+      "citations": 5,
       "authors": [
         "Zhang J.Y.",
         "Hyde K.D.",
@@ -17495,7 +17495,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 3,
+      "citations": 4,
       "authors": [
         "Liu X.",
         "Chen Q.",
@@ -17606,7 +17606,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 6,
+      "citations": 8,
       "authors": [
         "Gajanayake A.J.",
         "Jayawardena R.S.",
@@ -17968,7 +17968,7 @@
       "quartileYear": "2025",
       "citeScore": "4.8",
       "citeScorePercentile": "80",
-      "citations": 9,
+      "citations": 10,
       "authors": [
         "Bu J.",
         "Wei D.P.",
@@ -18797,7 +18797,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 4,
+      "citations": 5,
       "authors": [
         "Du H.Z.",
         "Chi M.F.",
@@ -19153,7 +19153,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 11,
+      "citations": 12,
       "authors": [
         "Xiao X.J.",
         "Liu N.G.",
@@ -19224,7 +19224,7 @@
       "quartileYear": "2025",
       "citeScore": "3.2",
       "citeScorePercentile": "63",
-      "citations": 261,
+      "citations": 265,
       "authors": [
         "Rathnayaka A.R.",
         "Tennakoon D.S.",
@@ -19281,7 +19281,7 @@
       "quartileYear": "2025",
       "citeScore": "9.6",
       "citeScorePercentile": "91",
-      "citations": 12,
+      "citations": 13,
       "authors": [
         "Ekanayaka A.H.",
         "Karunarathna S.C.",
@@ -19513,7 +19513,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 39,
+      "citations": 43,
       "authors": [
         "Hongsanan S.",
         "Khuna S.",
@@ -19649,7 +19649,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 27,
+      "citations": 31,
       "authors": [
         "Wijesinghe S.N.",
         "Deng Y.L.",
@@ -19777,7 +19777,7 @@
       "quartileYear": "2024",
       "citeScore": "46.0",
       "citeScorePercentile": "99",
-      "citations": 61,
+      "citations": 66,
       "authors": [
         "Manawasinghe I.S.",
         "Hyde K.D.",
@@ -19951,7 +19951,7 @@
       "quartileYear": "2024",
       "citeScore": "18.6",
       "citeScorePercentile": "98",
-      "citations": 34,
+      "citations": 35,
       "authors": [
         "Thiyagaraja V.",
         "Hyde K.D.",
@@ -20058,7 +20058,7 @@
         "Adjunct Prof. Dr. Kevin Hyde",
         "Asst. Prof. Dr. Ruvishika Jayawardena"
       ],
-      "affiliation": "Universiteit Gent; University of Colorado Boulder; University of Electronic Science and Technology of China; Nankai University; Radboud University Medical Center; Univerza v Ljubljani; Shenzhen University; University of Warsaw; University of Pretoria; Martin-Luther-Universität Halle-Wittenberg; College of Sciences; Guizhou University; Chiang Mai University; Université du Québec à Montréal; Ferdowsi University of Mashhad; University of Calcutta; Universidad Rey Juan Carlos; Capital Normal University; Heilongjiang University; National Taiwan Ocean University; University of Karachi; Guangdong Medical University; Universidad de Costa Rica; Universidade Federal de Mato Grosso do Sul; Università degli Studi della Tuscia Viterbo; Helmholtz Centre for Infection Research (HZI); Kunming Institute of Botany; Institute of Microbiology Chinese Academy of Sciences; Southwest Forestry University; Thailand National Science and Technology Development Agency; Guizhou Normal University; Smith College; University of Kurdistan; Zhongkai University of Agriculture and Engineering; Thailand National Center for Genetic Engineering and Biotechnology; Dali University; Mae Fah Luang University; Altai State University, Barnaul; Faculty of Science; Manaaki Whenua – Landcare Research; Illinois Natural History Survey; Goa University; Institute of Entomology, Biology Centre of the Academy of Sciences of the Czech Republic; Westerdijk Fungal Biodiversity Institute - KNAW; Université du Québec en Abitibi-Témiscamingue; Federal Scientific Center of the East Asia Terrestrial Biodiversity, Far Eastern Branch of the Russian Academy of Sciences; Jiwaji University; Universidade do Estado da Bahia; Guizhou Institute of Technology; Qujing Normal University; Academia Sinica, Biodiversity Research Center; Research Institute for Nature and Forest, Brussels; Botanic Garden Meise; Władysław Szafer Institute of Botany of the Polish Academy of Sciences; Sabaragamuwa University of Sri Lanka; University of the Philippines Visayas; Organisasi Riset Ilmu Pengetahuan Hayati; Scottish Church College Kolkata; Universidad Autónoma de Chiriquí; Patanjali Research Foundation; Institut National de Recherche Forestière (INRF); Service général de l'Enseignement supérieur et de la Recherche scientifique; University of Warsaw Botanic Garden; Białowieża National Park; Biology Division; Zest Lanka International (Private) Limited; Philippine Science High School-Eastern Visayas Campus; MYCOmmunity Applied Mycology; Patakis editions; Biologicum",
+      "affiliation": "Universiteit Gent; University of Colorado Boulder; University of Electronic Science and Technology of China; Nankai University; Radboud University Medical Center; Univerza v Ljubljani; Shenzhen University; University of Warsaw; University of Pretoria; Martin-Luther-Universität Halle-Wittenberg; College of Sciences; Guizhou University; Chiang Mai University; Université du Québec à Montréal; Ferdowsi University of Mashhad; University of Calcutta; Universidad Rey Juan Carlos; Capital Normal University; Heilongjiang University; National Taiwan Ocean University; University of Karachi; Guangdong Medical University; Universidad de Costa Rica; Universidade Federal de Mato Grosso do Sul; Università degli Studi della Tuscia Viterbo; Helmholtz Centre for Infection Research (HZI); Kunming Institute of Botany; Institute of Microbiology Chinese Academy of Sciences; Southwest Forestry University; Thailand National Science and Technology Development Agency; Guizhou Normal University; Smith College; University of Kurdistan; Zhongkai University of Agriculture and Engineering; Thailand National Center for Genetic Engineering and Biotechnology; Dali University; Mae Fah Luang University; Altai State University, Barnaul; Faculty of Science; Manaaki Whenua – Landcare Research; Illinois Natural History Survey; Goa University; Institute of Entomology, Biology Centre of the Academy of Sciences of the Czech Republic; Université du Québec en Abitibi-Témiscamingue; Westerdijk Fungal Biodiversity Institute - KNAW; Federal Scientific Center of the East Asia Terrestrial Biodiversity, Far Eastern Branch of the Russian Academy of Sciences; Jiwaji University; Universidade do Estado da Bahia; Guizhou Institute of Technology; Qujing Normal University; Academia Sinica, Biodiversity Research Center; Research Institute for Nature and Forest, Brussels; Botanic Garden Meise; Władysław Szafer Institute of Botany of the Polish Academy of Sciences; Sabaragamuwa University of Sri Lanka; University of the Philippines Visayas; Organisasi Riset Ilmu Pengetahuan Hayati; Scottish Church College Kolkata; Patanjali Research Foundation; Universidad Autónoma de Chiriquí; Institut National de Recherche Forestière (INRF); Service général de l'Enseignement supérieur et de la Recherche scientifique; University of Warsaw Botanic Garden; Białowieża National Park; Biology Division; Zest Lanka International (Private) Limited; Philippine Science High School-Eastern Visayas Campus; MYCOmmunity Applied Mycology; Patakis editions; Biologicum",
       "affiliationCountries": [
         "Algeria",
         "Australia",
@@ -54553,6 +54553,370 @@
       "matchedStaffRoles": {},
       "matchedStaffGroups": {},
       "academicStaffMatchMethod": "author indexed-name last name plus first-initial match",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105051436770",
+      "year": 2026,
+      "title": "Cross-kingdom RNA in plant–microbe interactions: from molecular interactions to next-generation crop protection",
+      "doi": "10.1007/s44154-026-00337-x",
+      "journal": "Stress Biology",
+      "sourceId": "21101151574",
+      "issn": "",
+      "eIssn": "27310450",
+      "quartile": "Q1",
+      "quartileYear": "2026",
+      "citeScore": "8.4",
+      "citeScorePercentile": "97",
+      "citations": 0,
+      "authors": [
+        "Deepali B.L.D.",
+        "Huang C.",
+        "Zhang W.",
+        "Wang H.",
+        "Wang Y.",
+        "Hyde K.D.",
+        "Chethana K.W.T.",
+        "Yan J."
+      ],
+      "matchedStaff": [
+        "Adjunct Prof. Dr. Kevin Hyde"
+      ],
+      "affiliation": "Beijing Academy of Agriculture and Forestry Sciences; Mae Fah Luang University; Institut Sophia Agrobiotech - (ISA)",
+      "affiliationCountries": [
+        "China",
+        "France",
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Review",
+      "sdgs": [
+        {
+          "code": "SDG 2",
+          "label": "Zero Hunger",
+          "matchedTerms": [
+            "crop"
+          ]
+        }
+      ],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+      },
+      "matchedStaffGroups": {
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+      },
+      "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105051177886",
+      "year": 2026,
+      "title": "Size-segregated airborne polycyclic aromatic hydrocarbons down to PM0.1 in urban tropical environment: spatial distribution, health risk assessment, and potential sources",
+      "doi": "10.1038/s41598-026-58270-y",
+      "journal": "Scientific Reports",
+      "sourceId": "21100200805",
+      "issn": "",
+      "eIssn": "20452322",
+      "quartile": "Q1",
+      "quartileYear": "2026",
+      "citeScore": "7.0",
+      "citeScorePercentile": "88",
+      "citations": 0,
+      "authors": [
+        "Pongpiachan S.",
+        "Tipmanee D.",
+        "Deelaman W.",
+        "Choochuay C.",
+        "Pripdeevech P.",
+        "Khruengsai S.",
+        "Bamroongrugsa N.",
+        "Techato K.",
+        "Somboonsuke B.",
+        "Aobpaet A.",
+        "Chidburee P.",
+        "Vannametee E.",
+        "Sinutok S.",
+        "Charuchittipan D.",
+        "Chanket U.",
+        "Niammuad D."
+      ],
+      "matchedStaff": [
+        "Assoc. Prof. Dr. Patcharee Pripdeevech"
+      ],
+      "affiliation": "Chulalongkorn University; Khon Kaen University; Prince of Songkla University; Naresuan University; Silpakorn University; Mae Fah Luang University; National Institute of Development Administration; National Astronomical Research Institute of Thailand; Rajamangala University of Technology Phra Nakhon; Geo-Informatics and Space Technology Development Agency; Krasetsart University",
+      "affiliationCountries": [
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Article",
+      "sdgs": [
+        {
+          "code": "SDG 3",
+          "label": "Good Health and Well-being",
+          "matchedTerms": [
+            "health"
+          ]
+        },
+        {
+          "code": "SDG 11",
+          "label": "Sustainable Cities and Communities",
+          "matchedTerms": [
+            "urban"
+          ]
+        }
+      ],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "corresponding_author"
+      },
+      "matchedStaffGroups": {
+        "Assoc. Prof. Dr. Patcharee Pripdeevech": "APC"
+      },
+      "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105050683060",
+      "year": 2026,
+      "title": "New species of Albotricha (Helotiales) and Trichomerium (Chaetothyriales) from grassland vegetation in Yunnan Province, China",
+      "doi": "10.11646/phytotaxa.773.3.2",
+      "journal": "Phytotaxa",
+      "sourceId": "21100209326",
+      "issn": "11793155",
+      "eIssn": "11793163",
+      "quartile": "Q3",
+      "quartileYear": "2026",
+      "citeScore": "1.7",
+      "citeScorePercentile": "40",
+      "citations": 0,
+      "authors": [
+        "Gao Y.",
+        "Wanasinghe D.N.",
+        "Ren G.",
+        "Jiang H.",
+        "Li J.",
+        "Cai L.",
+        "Sun Z.",
+        "Jayawardena R.S.",
+        "Hyde K.D.",
+        "Gui H."
+      ],
+      "matchedStaff": [
+        "Adjunct Prof. Dr. Kevin Hyde",
+        "Asst. Prof. Dr. Ruvishika Jayawardena"
+      ],
+      "affiliation": "King Saud University; College of Sciences; Kunming Institute of Botany; Mae Fah Luang University; Guiyang Healthcare Vocational University",
+      "affiliationCountries": [
+        "China",
+        "Saudi Arabia",
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Article",
+      "sdgs": [
+        {
+          "code": "SDG 15",
+          "label": "Life on Land",
+          "matchedTerms": [
+            "species"
+          ]
+        }
+      ],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "corresponding_author",
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+      },
+      "matchedStaffGroups": {
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "Bio",
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+      },
+      "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105050775105",
+      "year": 2026,
+      "title": "Saprobic Melomastia taxa from Bauhinia variegata and Litchi chinensis: a new species and a new host record from southern China",
+      "doi": "10.11646/phytotaxa.773.2.1",
+      "journal": "Phytotaxa",
+      "sourceId": "21100209326",
+      "issn": "11793155",
+      "eIssn": "11793163",
+      "quartile": "Q3",
+      "quartileYear": "2026",
+      "citeScore": "1.7",
+      "citeScorePercentile": "40",
+      "citations": 0,
+      "authors": [
+        "Yang Y.H.",
+        "Liao C.F.",
+        "Al-Otibi F.",
+        "Bhunjun C.S.",
+        "Kakumyan P.",
+        "Manawasinghe I.S.",
+        "Hyde K.D."
+      ],
+      "matchedStaff": [
+        "Adjunct Prof. Dr. Kevin Hyde",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun",
+        "Asst. Prof. Dr. Pattana Kakumyan"
+      ],
+      "affiliation": "College of Sciences; Beijing Academy of Agriculture and Forestry Sciences; Zhongkai University of Agriculture and Engineering; Mae Fah Luang University; Zhaotong University",
+      "affiliationCountries": [
+        "China",
+        "Saudi Arabia",
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Article",
+      "sdgs": [
+        {
+          "code": "SDG 15",
+          "label": "Life on Land",
+          "matchedTerms": [
+            "species"
+          ]
+        }
+      ],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {
+        "Asst. Prof. Dr. Pattana Kakumyan": "co_author",
+        "Adjunct Prof. Dr. Kevin Hyde": "corresponding_author",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "co_author"
+      },
+      "matchedStaffGroups": {
+        "Asst. Prof. Dr. Pattana Kakumyan": "Bio",
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio",
+        "Ajarn Dr. Chitrabhanu Sharma Bhunjun": "Bio"
+      },
+      "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105050705843",
+      "year": 2026,
+      "title": "A new lignicolous freshwater fungus, Helicosporium (Tubeufiaceae, Tubeufiales) from Guizhou Province, China",
+      "doi": "10.11646/phytotaxa.772.1.5",
+      "journal": "Phytotaxa",
+      "sourceId": "21100209326",
+      "issn": "11793155",
+      "eIssn": "11793163",
+      "quartile": "Q3",
+      "quartileYear": "2026",
+      "citeScore": "1.7",
+      "citeScorePercentile": "40",
+      "citations": 0,
+      "authors": [
+        "Xing-Juan X.",
+        "Xiang-Fu L.",
+        "Hong-Xiu L.",
+        "Yong-Zhong L.",
+        "Yuan-Pin X.",
+        "Hyde K.D.",
+        "Jayawardena R.S."
+      ],
+      "matchedStaff": [
+        "Adjunct Prof. Dr. Kevin Hyde",
+        "Asst. Prof. Dr. Ruvishika Jayawardena"
+      ],
+      "affiliation": "Southwest Forestry University; Mae Fah Luang University; Guizhou Institute of Technology; Guizhou Academy of Agricultural Sciences",
+      "affiliationCountries": [
+        "China",
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Article",
+      "sdgs": [
+        {
+          "code": "SDG 6",
+          "label": "Clean Water and Sanitation",
+          "matchedTerms": [
+            "freshwater"
+          ]
+        }
+      ],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "corresponding_author",
+        "Adjunct Prof. Dr. Kevin Hyde": "co_author"
+      },
+      "matchedStaffGroups": {
+        "Asst. Prof. Dr. Ruvishika Jayawardena": "Bio",
+        "Adjunct Prof. Dr. Kevin Hyde": "Bio"
+      },
+      "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
+      "quartileSource": "Scopus CiteScore"
+    },
+    {
+      "id": "2-s2.0-105050772237",
+      "year": 2026,
+      "title": "Expanding the Diversity of Penicillium in Thailand: New Records and Habitat—Substrate Associations",
+      "doi": "10.11646/phytotaxa.772.1.1",
+      "journal": "Phytotaxa",
+      "sourceId": "21100209326",
+      "issn": "11793155",
+      "eIssn": "11793163",
+      "quartile": "Q3",
+      "quartileYear": "2026",
+      "citeScore": "1.7",
+      "citeScorePercentile": "40",
+      "citations": 0,
+      "authors": [
+        "Thakshila S.A.D.",
+        "Bhubnjun C.S.",
+        "Phukhamsakda C.",
+        "Saichana N.",
+        "Bhat D.J.",
+        "De Hoog S."
+      ],
+      "matchedStaff": [
+        "Asst. Prof. Dr. Natsaran Saichana"
+      ],
+      "affiliation": "Radboud University Medical Center; Helmholtz Centre for Infection Research (HZI); Kunming Institute of Botany; Mae Fah Luang University; Vishnugupta Vishwavidyapeetam",
+      "affiliationCountries": [
+        "China",
+        "Germany",
+        "India",
+        "Netherlands",
+        "Thailand"
+      ],
+      "status": "verified",
+      "reviewReason": "Matched by affiliation-wide School of Science query",
+      "schoolAffiliationVerified": true,
+      "schoolAffiliationScope": "School of Science, Mae Fah Luang University",
+      "schoolFilterEvidence": "Matched by Scopus query: AFFIL(\"Mae Fah Luang University\") AND AFFIL(\"School of Science\")",
+      "type": "Article",
+      "sdgs": [],
+      "sdgMethod": "Rule-based keyword inference from title, journal, and publication type",
+      "matchedStaffRoles": {
+        "Asst. Prof. Dr. Natsaran Saichana": "co_author"
+      },
+      "matchedStaffGroups": {
+        "Asst. Prof. Dr. Natsaran Saichana": "Bio"
+      },
+      "academicStaffMatchMethod": "overlaid from current academic staff Scopus queries by EID",
       "quartileSource": "Scopus CiteScore"
     }
   ]
